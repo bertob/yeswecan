@@ -1,4 +1,3 @@
-
 $.getJSON("features.json", function(data){
   renderData(data);
 });
