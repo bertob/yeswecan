@@ -1,0 +1,89 @@
+/* RESET & TYPOGRAPHY */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+	font-family: "Cantarell", "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.3;
+	color: #333;
+}
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+.title {
+  text-align: center;
+}
+
+/* LAYOUT */
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    width: 98%;
+  }
+}
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  width: 100%;
+  margin: 1em;
+}
+@media screen and (min-width: 480px) {
+  .block {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 540px) {
+  .block {
+    margin: 1em 2em;
+  }
+}
+
+/* ELEMENTS */
+.left-col {
+  display: inline-block;
+  width: calc(100% - 90px);
+  padding-right: 5px;
+  text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.browser-labels > label {
+  font-size: 0.63em;
+  margin: 0 0.25em
+}
+
+.point {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin: 0 2px;
+}
+.y {
+  background-color: #22f07c;
+}
+.n,
+.p {
+  background-color: #ddd;
+}
+.a {
+  background-color: #f2aa00;
+}
+.x {
+  border-bottom: 2px solid #333;
+  opacity: 0.35;
+}

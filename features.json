@@ -1,0 +1,2058 @@
+{
+ "png-alpha": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "apng": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "y",
+  "n"
+ ],
+ "video": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "audio": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "contenteditable": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "dragndrop": [
+  "a #2",
+  "a #2",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "internationalization": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "queryselector": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "getelementsbyclassname": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "forms": [
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a"
+ ],
+ "html5semantic": [
+  "y #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "offline-apps": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "webworkers": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "fontface": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "eot": [
+  "y",
+  "y",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "woff": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "multibackgrounds": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "border-image": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "background-img-opts": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-table": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-gencontent": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-fixed": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "beacon": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "hashchange": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-sel2": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-sel3": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-textshadow": [
+  "y #1",
+  "y #1",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-boxshadow": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css3-colors": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css3-boxsizing": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-mediaqueries": [
+  "y #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "multicolumn": [
+  "y",
+  "y",
+  "a x",
+  "a x",
+  "a x",
+  "a x"
+ ],
+ "border-radius": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "transforms2d": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "use-strict": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "devicepixelratio": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "transforms3d": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "sharedworkers": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-hyphens": [
+  "y x",
+  "y x",
+  "y x",
+  "n",
+  "y x",
+  "n"
+ ],
+ "css-transitions": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "font-feature": [
+  "y",
+  "y",
+  "y",
+  "y x",
+  "n",
+  "y x"
+ ],
+ "css-animation": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "css-gradients": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-canvas": [
+  "n",
+  "n",
+  "n",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "css-reflections": [
+  "n",
+  "n",
+  "n",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "css-masks": [
+  "n",
+  "n",
+  "a #2",
+  "a x #1",
+  "a x #1",
+  "a x #1"
+ ],
+ "console-basic": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "svg": [
+  "y #2",
+  "y #2",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "svg-css": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "svg-smil": [
+  "p",
+  "p",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "svg-fonts": [
+  "n",
+  "n",
+  "n",
+  "n #1",
+  "y",
+  "n #1"
+ ],
+ "svg-filters": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "svg-html": [
+  "a",
+  "y",
+  "y",
+  "a",
+  "a",
+  "a"
+ ],
+ "svg-html5": [
+  "y #1",
+  "y #1",
+  "y",
+  "y",
+  "y #1",
+  "y"
+ ],
+ "canvas": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "canvas-text": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "namevalue-storage": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "sql-storage": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "y",
+  "y"
+ ],
+ "indexeddb": [
+  "a #1",
+  "a #1",
+  "y",
+  "y",
+  "a #2",
+  "y"
+ ],
+ "online-status": [
+  "y",
+  "y",
+  "a #3",
+  "y",
+  "y",
+  "y"
+ ],
+ "eventsource": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "x-doc-messaging": [
+  "a #2",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "sni": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "datauri": [
+  "a",
+  "a",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "mathml": [
+  "n",
+  "n",
+  "y",
+  "p",
+  "y",
+  "p"
+ ],
+ "css-featurequeries": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "xhtml": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "xhtmlsmil": [
+  "n",
+  "n",
+  "p",
+  "p",
+  "p",
+  "p"
+ ],
+ "wai-aria": [
+  "a",
+  "a",
+  "a",
+  "a",
+  "a",
+  "a"
+ ],
+ "geolocation": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "flexbox": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "webgl": [
+  "y #1",
+  "y #1",
+  "a",
+  "y",
+  "y",
+  "a"
+ ],
+ "fileapi": [
+  "a #2",
+  "a #2",
+  "y",
+  "y",
+  "a #2",
+  "y"
+ ],
+ "shadowdom": [
+  "n",
+  "n",
+  "n d #1",
+  "y",
+  "n",
+  "y"
+ ],
+ "websockets": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "hidden": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "script-async": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "cors": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y #3",
+  "y"
+ ],
+ "css-backdrop-filter": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "calc": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "dom-range": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "ruby": [
+  "a",
+  "a",
+  "y",
+  "a",
+  "a",
+  "a"
+ ],
+ "css-opacity": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "form-validation": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "a #1",
+  "y"
+ ],
+ "history": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "json": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "classlist": [
+  "a #1 #2",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "text-overflow": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "webm": [
+  "p",
+  "p",
+  "y",
+  "y",
+  "p",
+  "y"
+ ],
+ "mpeg4": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "ogv": [
+  "p",
+  "p",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "wordwrap": [
+  "a",
+  "a",
+  "a",
+  "y",
+  "y",
+  "y"
+ ],
+ "progressmeter": [
+  "a",
+  "a",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "object-fit": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "a #1",
+  "y"
+ ],
+ "xhr2": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "minmaxwh": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "details": [
+  "n",
+  "n",
+  "p",
+  "y",
+  "y",
+  "y"
+ ],
+ "text-stroke": [
+  "n",
+  "n",
+  "n",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "inline-block": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "notifications": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "stream": [
+  "n",
+  "y",
+  "y x",
+  "a x #1",
+  "n",
+  "a x #1"
+ ],
+ "svg-img": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "a #1",
+  "y"
+ ],
+ "datalist": [
+  "a #2",
+  "a #2",
+  "a #3",
+  "a #1",
+  "p",
+  "a #1"
+ ],
+ "dataset": [
+  "y",
+  "y",
+  "y",
+  "y #1",
+  "y #1",
+  "y #1"
+ ],
+ "css-grid": [
+  "a x #2",
+  "a x #2",
+  "p",
+  "p d #1",
+  "p",
+  "p d #1"
+ ],
+ "menu": [
+  "n",
+  "n",
+  "a #1",
+  "n",
+  "n",
+  "n"
+ ],
+ "css-zoom": [
+  "y #1",
+  "y",
+  "n",
+  "y",
+  "y",
+  "y"
+ ],
+ "rem": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "ttf": [
+  "a #1",
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "touch": [
+  "p",
+  "y",
+  "n d #1",
+  "y",
+  "n",
+  "y"
+ ],
+ "matchesselector": [
+  "a x",
+  "a x",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "pointer-events": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "blobbuilder": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "filereader": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "filesystem": [
+  "n",
+  "n",
+  "n",
+  "y x",
+  "n",
+  "y x"
+ ],
+ "bloburls": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "rellist": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "typedarrays": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "deviceorientation": [
+  "a #1",
+  "y",
+  "a",
+  "a",
+  "n",
+  "a"
+ ],
+ "script-defer": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "nav-timing": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "audio-api": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "css-regions": [
+  "a x #1",
+  "a x #1",
+  "n",
+  "n",
+  "y x",
+  "n"
+ ],
+ "spellcheck-attribute": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "fullscreen": [
+  "y x",
+  "y",
+  "a x #1",
+  "a x #2",
+  "a x #2",
+  "a x #2"
+ ],
+ "css-exclusions": [
+  "y x",
+  "y x",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "requestanimationframe": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "input-range": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "matchmedia": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "input-datetime": [
+  "n",
+  "a #1",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "input-color": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "input-number": [
+  "a #1",
+  "a #1",
+  "y #3",
+  "y",
+  "y",
+  "y"
+ ],
+ "getboundingclientrect": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "iframe-sandbox": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-counters": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-resize": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "input-placeholder": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "spdy": [
+  "y",
+  "u",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-repeating-gradients": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-filters": [
+  "n",
+  "n d #2",
+  "y",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "getcomputedstyle": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "mp3": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "word-break": [
+  "y",
+  "y",
+  "y",
+  "a",
+  "a",
+  "a"
+ ],
+ "viewport-units": [
+  "a #2",
+  "a #2",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "contentsecuritypolicy": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "pagevisibility": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "stricttransportsecurity": [
+  "y #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "style-scoped": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "svg-fragment": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "outline": [
+  "y #1",
+  "y #1",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "download": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "pointer": [
+  "y",
+  "y",
+  "p",
+  "p",
+  "p",
+  "p"
+ ],
+ "user-select-none": [
+  "y x",
+  "y x",
+  "y x",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "webp": [
+  "n",
+  "n",
+  "p",
+  "y",
+  "n",
+  "y"
+ ],
+ "intrinsic-width": [
+  "n",
+  "n",
+  "a x #1 #2",
+  "y x",
+  "a x #1",
+  "y x"
+ ],
+ "cryptography": [
+  "a x #1",
+  "y",
+  "y",
+  "y",
+  "y x #3",
+  "y"
+ ],
+ "template": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "opus": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "jpegxr": [
+  "y",
+  "y",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "channel-messaging": [
+  "y",
+  "y",
+  "n d #1",
+  "y",
+  "y",
+  "y"
+ ],
+ "css3-tabsize": [
+  "n",
+  "n",
+  "a x #1",
+  "y",
+  "a #1",
+  "y"
+ ],
+ "mutationobserver": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-selection": [
+  "y",
+  "y",
+  "y x",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-placeholder": [
+  "a x",
+  "a x",
+  "y x",
+  "a x",
+  "a x",
+  "a x"
+ ],
+ "css-deviceadaptation": [
+  "a x #1",
+  "a x #1",
+  "n",
+  "n d",
+  "n",
+  "n"
+ ],
+ "text-emphasis": [
+  "n",
+  "n",
+  "n",
+  "a x #1",
+  "y",
+  "a x #1"
+ ],
+ "midi": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "canvas-blending": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "clipboard": [
+  "a #1 #2",
+  "a #1 #2",
+  "a #2 #3",
+  "y",
+  "a #2 #3",
+  "y"
+ ],
+ "rtcpeerconnection": [
+  "n",
+  "n",
+  "y x",
+  "y x",
+  "n",
+  "y x"
+ ],
+ "css3-cursors": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css3-cursors-newer": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "webvtt": [
+  "y",
+  "y",
+  "y #1",
+  "y",
+  "y",
+  "y"
+ ],
+ "promises": [
+  "p",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-sticky": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "y x",
+  "n"
+ ],
+ "dialog": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-variables": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "vibration": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-backgroundblendmode": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "a #1",
+  "y"
+ ],
+ "css-mixblendmode": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "a #2",
+  "y"
+ ],
+ "web-speech": [
+  "n",
+  "n",
+  "n d #3",
+  "a x #1",
+  "a #2",
+  "a x #1"
+ ],
+ "high-resolution-time": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "battery-status": [
+  "n",
+  "n",
+  "a #1",
+  "y",
+  "n",
+  "y"
+ ],
+ "serviceworkers": [
+  "n",
+  "n",
+  "n d #1",
+  "a",
+  "n",
+  "a"
+ ],
+ "text-decoration": [
+  "n",
+  "n",
+  "y",
+  "n x d #1",
+  "a x #2",
+  "n"
+ ],
+ "iframe-srcdoc": [
+  "p",
+  "p",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "speech-synthesis": [
+  "n",
+  "n",
+  "n d #1",
+  "y",
+  "y",
+  "y"
+ ],
+ "user-timing": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "srcset": [
+  "n",
+  "a #2",
+  "y",
+  "y",
+  "a #2",
+  "y"
+ ],
+ "ambient-light": [
+  "n",
+  "n",
+  "a #1",
+  "n",
+  "n",
+  "n"
+ ],
+ "will-change": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-shapes": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "y x",
+  "y"
+ ],
+ "domcontentloaded": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "proximity": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "kerning-pairs-ligatures": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "iframe-seamless": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "css-image-orientation": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "picture": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "woff2": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "text-size-adjust": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "web-animation": [
+  "n",
+  "n",
+  "a d #3",
+  "a #2",
+  "n",
+  "a #2"
+ ],
+ "resource-timing": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "custom-elements": [
+  "p",
+  "p",
+  "p d #1",
+  "y",
+  "p",
+  "y"
+ ],
+ "imports": [
+  "p",
+  "p",
+  "p d #1",
+  "y",
+  "p",
+  "y"
+ ],
+ "input-file-multiple": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "atob-btoa": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-appearance": [
+  "n",
+  "a #1",
+  "y x",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "css-background-offsets": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-supports-api": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-touch-action": [
+  "y",
+  "y",
+  "n d #1",
+  "y",
+  "n",
+  "y"
+ ],
+ "autofocus": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-clip-path": [
+  "n",
+  "n",
+  "a #1",
+  "a x #2",
+  "a x #2",
+  "a x #2"
+ ],
+ "getrandomvalues": [
+  "y x",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "screen-orientation": [
+  "a x",
+  "a x",
+  "a x",
+  "y",
+  "n",
+  "y"
+ ],
+ "font-loading": [
+  "n",
+  "n",
+  "n d #1",
+  "y",
+  "n",
+  "y"
+ ],
+ "font-unicode-range": [
+  "a",
+  "a",
+  "n d #1",
+  "y",
+  "a",
+  "y"
+ ],
+ "gamepad": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-font-stretch": [
+  "y",
+  "y",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "font-size-adjust": [
+  "n",
+  "n",
+  "y",
+  "n d #1",
+  "n",
+  "n"
+ ],
+ "link-icon-png": [
+  "y",
+  "y",
+  "y",
+  "y #1",
+  "y #2",
+  "y #1"
+ ],
+ "link-icon-svg": [
+  "n",
+  "n",
+  "a #2",
+  "n",
+  "n",
+  "n"
+ ],
+ "css-media-resolution": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "a x #3",
+  "y"
+ ],
+ "xml-serializer": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-image-set": [
+  "n",
+  "n",
+  "n",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "css-boxdecorationbreak": [
+  "n",
+  "n",
+  "y",
+  "a x #1",
+  "a x #1",
+  "a x #1"
+ ],
+ "object-observe": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-at-counter-style": [
+  "n",
+  "n",
+  "a #1",
+  "n",
+  "n",
+  "n"
+ ],
+ "css-page-break": [
+  "a #1 #2",
+  "a #1 #2",
+  "a #1 #2 #3",
+  "a #1 #2 #3",
+  "a #1 #2 #3",
+  "a #1 #2 #3"
+ ],
+ "css-placeholder-shown": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "broadcastchannel": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "css-crisp-edges": [
+  "a x #2",
+  "a x #2",
+  "y x #3",
+  "y #4",
+  "y x #3",
+  "y #4"
+ ],
+ "css-text-align-last": [
+  "a #1",
+  "a #1",
+  "y x",
+  "n d #2",
+  "n",
+  "n d #3"
+ ],
+ "css-logical-props": [
+  "n",
+  "n",
+  "a x #1",
+  "a x #2",
+  "a x #2",
+  "a x #2"
+ ],
+ "fetch": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "referrer-policy": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "background-attachment": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "currentcolor": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "input-pattern": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "a #1 #2",
+  "y"
+ ],
+ "registerprotocolhandler": [
+  "n",
+  "n",
+  "y",
+  "y #1",
+  "n",
+  "y #1"
+ ],
+ "css-snappoints": [
+  "a x #2",
+  "a x #2",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "input-minlength": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-media-interaction": [
+  "n",
+  "y",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "ime": [
+  "y x #1",
+  "y x #1",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "font-smooth": [
+  "n",
+  "n",
+  "a x #2 #3",
+  "a x #1 #3",
+  "a x #1 #3",
+  "a x #1 #3"
+ ],
+ "audiotracks": [
+  "y",
+  "y",
+  "n",
+  "n",
+  "y",
+  "n"
+ ],
+ "videotracks": [
+  "n",
+  "y",
+  "n",
+  "n",
+  "y",
+  "n"
+ ],
+ "contentsecuritypolicy2": [
+  "n",
+  "n",
+  "a #3",
+  "y",
+  "n",
+  "y"
+ ],
+ "permissions-api": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "http2": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "font-kerning": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y x",
+  "y"
+ ],
+ "jpeg2000": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "y",
+  "n"
+ ],
+ "upgradeinsecurerequests": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "publickeypinning": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "input-email-tel-url": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "fieldset-disabled": [
+  "a #1 #2",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "font-variant-alternates": [
+  "n #1",
+  "n #1",
+  "y",
+  "n #1",
+  "n",
+  "n #1"
+ ],
+ "form-attribute": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ]
+}
