@@ -22,9 +22,9 @@ function renderData(data, meta) {
       i = 0;
     }
     var row = $("<div class='row'></div>");
-    row.append("<label class='left-col' title='" +
-        meta[feature].title + ": " + meta[feature].description + "'>" +
-        "<a href='http://caniuse.com/#search=" + feature +"'>" +
+    row.append("<label class='left-col'>" +
+        "<a href='http://caniuse.com/#search=" + feature + "'" +
+        "title='" + meta[feature].title + ": " + meta[feature].description + "'>" +
         meta[feature].title + "</a>" +
       "</label>");
     var arr = data[feature];

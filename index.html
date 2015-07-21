@@ -8,13 +8,45 @@
 
 <body>
   <div class="container">
-    <div class="intro">
+    <header class="info">
       <h2 class="title">Yes We Can</h2>
-      <h4 <class="title">All of <a href="http://caniuse.com">Can I Use?</a> at a glance.</h4>
-    </div>
+      <h4 class="title">All of <a href="http://caniuse.com">Can I Use</a> at a glance.</h4>
+      <div class="legend">
+        <h4 class="legend-title">Legend:</h4>
+        <div class="legend-item">
+          <div class="point y"></div>
+          <label>Supported</label>
+        </div>
+        <div class="legend-item">
+          <div class="point y x"></div>
+          <label>Supported but prefixed</label>
+        </div>
+        <div class="legend-item">
+          <div class="point a"></div>
+          <label>Partial support</label>
+        </div>
+        <div class="legend-item">
+          <div class="point a x"></div>
+          <label>Partial support, prefixed</label>
+        </div>
+        <div class="legend-item">
+          <div class="point n"></div>
+          <label>Not supported</label>
+        </div>
+      </div>
+    </header>
     <div class="table" id="table">
     </div>
   </div>
+  <footer class="info">
+    <hr>
+    <small>
+      A project by <a href="http://tobiasbernard.com">Tobias Bernard</a>. Get the code on <a href="https://github.com/bertob/yeswecan">Github</a>.
+    </small>
+    <small>
+      Data from <a href="http://caniuse.com">Can I Use</a>, specifically their <a href="https://github.com/Fyrd/caniuse">Github repo</a>.
+    </small>
+  </footer>
   <script src="lib/jquery.min.js" charset="utf-8"></script>
   <script src="app.js" charset="utf-8"></script>
 </body>
