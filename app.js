@@ -1,3 +1,5 @@
+var browsers = ["ie", "edge", "firefox", "chrome", "safari", "opera"];
+
 $.getJSON("features.json", function(data){
   $.getJSON("meta.json", function(meta){
     renderData(data, meta);
@@ -24,15 +26,36 @@ function renderData(data, meta) {
     var row = $("<div class='row'></div>");
     row.append("<label class='left-col'>" +
         "<a href='http://caniuse.com/#search=" + feature + "'" +
-        "title='" + meta[feature].title + ": " + meta[feature].description + "'>" +
-        meta[feature].title + "</a>" +
+        "title='" + meta.features[feature].title + ": " + meta.features[feature].description + "'>" +
+        meta.features[feature].title + "</a>" +
       "</label>");
     var arr = data[feature];
     for(var j=0; j<arr.length; j++) {
-      row.append("<div class='point " + arr[j] + "' title='" + "'></div>");
+      var hover = meta.features[feature].title + " is " + support(arr[j]) + " in " + meta.browsers[browsers[j]].name + " " + meta.browsers[browsers[j]].version;
+      row.append("<div class='point " + arr[j] + "' title='" + hover + "'></div>");
     }
     block.append(row);
     $("#table").append(block);
     i++;
   }
+}
+
+function support(str) {
+  var msg;
+  if (contains(str, "y x"))
+    msg = "supported, but prefixed";
+  else if (contains(str, "y"))
+    msg = "supported";
+  else if (contains(str, "a x"))
+    msg = "partially supported and prefixed";
+  else if (contains(str, "a"))
+    msg = "partially supported";
+  else
+    msg = "not supported";
+
+  return msg;
+}
+
+function contains(a, b) {
+  return a.indexOf(b) > -1;
 }
