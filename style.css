@@ -19,7 +19,8 @@ a:hover {
   background-color: #ffff80;
 }
 .info {
-  margin: 0 1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /* LAYOUT */
@@ -42,15 +43,25 @@ a:hover {
 }
 @media screen and (min-width: 480px) {
   .block {
-    width: 40%;
+    width: 43%;
   }
 }
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 750px) {
   .block {
-    width: 28%;
+    width: 29%;
   }
 }
 @media screen and (min-width: 1000px) {
+  .block {
+    width: 22%;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .block {
+    width: 17%;
+  }
+}
+@media screen and (min-width: 1900px) {
   .block {
     width: 240px;
   }
@@ -123,4 +134,9 @@ a:hover {
 .x {
   border-bottom: 2px solid #333;
   opacity: 0.35;
+}
+
+/* FOOTER */
+footer {
+  margin: 1em 0;
 }
