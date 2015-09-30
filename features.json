@@ -395,9 +395,9 @@
   "p",
   "p",
   "y",
+  "y #2",
   "y",
-  "y",
-  "y"
+  "y #2"
  ],
  "svg-fonts": [
   "n",
@@ -474,7 +474,7 @@
  "online-status": [
   "y",
   "y",
-  "a #3",
+  "y",
   "y",
   "y",
   "y"
@@ -504,8 +504,16 @@
   "y"
  ],
  "datauri": [
-  "a",
-  "a",
+  "a #2",
+  "a #2",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "wav": [
+  "n",
+  "y",
   "y",
   "y",
   "y",
@@ -611,6 +619,14 @@
   "y",
   "y",
   "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "mediasource": [
+  "a #2",
+  "y",
+  "n d #1",
   "y",
   "y",
   "y"
@@ -735,12 +751,12 @@
   "y",
   "y"
  ],
- "progressmeter": [
-  "a",
-  "a",
+ "pointerlock": [
+  "n",
+  "n",
   "y",
   "y",
-  "y",
+  "n",
   "y"
  ],
  "object-fit": [
@@ -827,14 +843,14 @@
   "y",
   "y",
   "y",
+  "y",
   "y #1",
-  "y #1",
-  "y #1"
+  "y"
  ],
  "css-grid": [
   "a x #2",
   "a x #2",
-  "p",
+  "p d #2",
   "p d #1",
   "p",
   "p d #1"
@@ -992,12 +1008,12 @@
   "y"
  ],
  "fullscreen": [
-  "y x",
-  "y",
-  "a x #1",
-  "a x #2",
-  "a x #2",
-  "a x #2"
+  "a x #3",
+  "a #3",
+  "a x #1 #3",
+  "a x #2 #3",
+  "a x #2 #3",
+  "a x #2 #3"
  ],
  "css-exclusions": [
   "y x",
@@ -1037,6 +1053,14 @@
   "n",
   "y",
   "n",
+  "y"
+ ],
+ "document-execcommand": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
   "y"
  ],
  "input-color": [
@@ -1097,7 +1121,7 @@
  ],
  "spdy": [
   "y",
-  "u",
+  "n",
   "y",
   "y",
   "y",
@@ -1113,7 +1137,7 @@
  ],
  "css-filters": [
   "n",
-  "n d #2",
+  "n d #2 #4",
   "y",
   "y x",
   "y x",
@@ -1139,9 +1163,9 @@
   "y",
   "y",
   "y",
+  "y",
   "a",
-  "a",
-  "a"
+  "y"
  ],
  "viewport-units": [
   "a #2",
@@ -1210,7 +1234,7 @@
  "pointer": [
   "y",
   "y",
-  "p",
+  "p d #2",
   "p",
   "p",
   "p"
@@ -1223,6 +1247,14 @@
   "y x",
   "y x"
  ],
+ "input-file-accept": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "a #1",
+  "y"
+ ],
  "webp": [
   "n",
   "n",
@@ -1231,13 +1263,21 @@
   "n",
   "y"
  ],
+ "input-autocomplete-onoff": [
+  "a #1",
+  "a #1",
+  "a #3",
+  "a #2",
+  "a #5",
+  "y"
+ ],
  "intrinsic-width": [
   "n",
   "n",
-  "a x #1 #2",
-  "y x",
-  "a x #1",
-  "y x"
+  "a x #1 #2 #3",
+  "y x #3",
+  "a x #1 #3",
+  "y x #3"
  ],
  "cryptography": [
   "a x #1",
@@ -1274,7 +1314,7 @@
  "channel-messaging": [
   "y",
   "y",
-  "n d #1",
+  "y",
   "y",
   "y",
   "y"
@@ -1344,12 +1384,12 @@
   "y"
  ],
  "clipboard": [
-  "a #1 #2",
-  "a #1 #2",
-  "a #2 #3",
-  "y",
-  "a #2 #3",
-  "y"
+  "a #1 #2 #5",
+  "a #1 #2 #5",
+  "a #2",
+  "a #5",
+  "a #2 #3 #5",
+  "a #5"
  ],
  "rtcpeerconnection": [
   "n",
@@ -1439,12 +1479,12 @@
   "a #2",
   "y"
  ],
- "web-speech": [
+ "speech-recognition": [
   "n",
   "n",
-  "n d #3",
+  "n d #2",
   "a x #1",
-  "a #2",
+  "n",
   "a x #1"
  ],
  "high-resolution-time": [
@@ -1649,11 +1689,19 @@
  ],
  "css-appearance": [
   "n",
-  "a #1",
-  "y x",
-  "y x",
-  "y x",
-  "y x"
+  "a #1 #2",
+  "a x #1",
+  "a x #1",
+  "a x #1",
+  "a x #1"
+ ],
+ "objectrtc": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
  ],
  "css-background-offsets": [
   "y",
@@ -1714,7 +1762,7 @@
  "font-loading": [
   "n",
   "n",
-  "n d #1",
+  "y",
   "y",
   "n",
   "y"
@@ -1762,7 +1810,7 @@
  "link-icon-svg": [
   "n",
   "n",
-  "a #2",
+  "y #4",
   "n",
   "n",
   "n"
@@ -1841,7 +1889,7 @@
  ],
  "css-crisp-edges": [
   "a x #2",
-  "a x #2",
+  "n",
   "y x #3",
   "y #4",
   "y x #3",
@@ -1849,7 +1897,7 @@
  ],
  "css-text-align-last": [
   "a #1",
-  "a #1",
+  "a",
   "y x",
   "n d #2",
   "n",
@@ -1873,7 +1921,7 @@
  ],
  "referrer-policy": [
   "n",
-  "n",
+  "a #1",
   "y",
   "y",
   "y",
@@ -2054,5 +2102,381 @@
   "y",
   "y",
   "y"
+ ],
+ "es5": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "page-transition-events": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "ogg-vorbis": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "meter": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "progress": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-filter-function": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "css-element-function": [
+  "n",
+  "n",
+  "y x",
+  "n",
+  "n",
+  "n"
+ ],
+ "u2f": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "n"
+ ],
+ "aac": [
+  "y",
+  "y",
+  "a #1",
+  "y",
+  "y",
+  "y"
+ ],
+ "link-rel-prefetch": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "ol-reversed": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-first-letter": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "wbr-element": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "const": [
+  "y",
+  "y",
+  "y",
+  "a #4",
+  "a #2 #3",
+  "a #4"
+ ],
+ "css-all": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-initial-value": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-letter-spacing": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-unset-value": [
+  "n",
+  "n",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "insertadjacenthtml": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "let": [
+  "y",
+  "y",
+  "n d #1",
+  "a #3",
+  "n",
+  "a #3"
+ ],
+ "arrow-functions": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "asmjs": [
+  "n",
+  "n d #2",
+  "y",
+  "a #1",
+  "n",
+  "a #1"
+ ],
+ "lazyload": [
+  "y",
+  "y",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "link-rel-dns-prefetch": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "link-rel-prerender": [
+  "y",
+  "y",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "rest-parameters": [
+  "n",
+  "y",
+  "y",
+  "n d #1",
+  "n",
+  "n d #1"
+ ],
+ "css-cross-fade": [
+  "n",
+  "n",
+  "n",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "css-writing-mode": [
+  "a #1",
+  "y",
+  "y",
+  "y x",
+  "y x",
+  "y x"
+ ],
+ "customevent": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "textcontent": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "addeventlistener": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "dispatchevent": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "documenthead": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "innertext": [
+  "y",
+  "y",
+  "n",
+  "y",
+  "y",
+  "y"
+ ],
+ "client-hints-dpr-width-viewport": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "link-rel-preconnect": [
+  "n",
+  "n",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "netinfo": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "setimmediate": [
+  "y",
+  "y",
+  "n",
+  "n",
+  "n",
+  "n"
+ ],
+ "es6-number": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "maxlength": [
+  "y",
+  "y #4",
+  "y #4",
+  "y",
+  "y",
+  "y"
+ ],
+ "proxy": [
+  "n",
+  "y",
+  "y",
+  "n",
+  "n",
+  "n"
+ ],
+ "keyboardevent-which": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "keyboardevent-charcode": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "keyboardevent-code": [
+  "n",
+  "n",
+  "y",
+  "n d #1",
+  "n",
+  "n d #1"
+ ],
+ "keyboardevent-location": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "keyboardevent-getmodifierstate": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "n",
+  "y"
+ ],
+ "keyboardevent-key": [
+  "y",
+  "y",
+  "y",
+  "n",
+  "n",
+  "n"
  ]
 }
