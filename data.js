@@ -25,8 +25,8 @@ for (var f in features) {
       if (version === current_versions[browser]) {
         current_features[f].push(feature[browser][version]);
         meta.features[f] = {};
-        meta.features[f].title = features[f].title;
-        meta.features[f].description = features[f].description;
+        meta.features[f].title = removeChar(features[f].title);
+        meta.features[f].description = removeChar(features[f].description);
       }
     }
   }
@@ -41,4 +41,10 @@ function writeFile(data, filename) {
   stream.write(JSON.stringify(data, null, 1));
   //stream.write(JSON.stringify(data));
   stream.end();
+}
+
+function removeChar(string) {
+   var s = string.replace("\`","");
+   s = s.replace("\'","");
+   return s;
 }
