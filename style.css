@@ -16,7 +16,7 @@ body {
 	color: #333;
 }
 a:hover {
-  background-color: #ffff80;
+  background-color: #fdffa7;
 }
 .info {
   margin-left: 1em;
@@ -29,6 +29,24 @@ a:hover {
 .subtitle {
   font-weight: 400;
   font-size: 1rem;
+}
+.nojs {
+  margin: 1em;
+}
+
+/* NOSCRIPT */
+.nojs > p {
+  max-width: 40em;
+}
+.nojs > img {
+  margin: 2em 0;
+}
+.sadface {
+  font-size: 7em;
+}
+.loading {
+  display: none;
+  height: 50vh;
 }
 
 /* LAYOUT */
@@ -72,6 +90,15 @@ a:hover {
 @media screen and (min-width: 1900px) {
   .block {
     width: 240px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .title {
+    display: inline-block;
+    margin-right: 6em;
+  }
+  .legend {
+    display: inline-block;
   }
 }
 

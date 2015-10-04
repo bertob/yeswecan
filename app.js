@@ -1,5 +1,7 @@
 var browsers = ["ie", "edge", "firefox", "chrome", "safari", "opera"];
 
+$(".loading").show();
+
 $.getJSON("features.json", function(data){
   $.getJSON("meta.json", function(meta){
     renderData(data, meta);
@@ -38,6 +40,7 @@ function renderData(data, meta) {
     $("#table").append(block);
     i++;
   }
+  $(".loading").hide();
 }
 
 function support(str) {
