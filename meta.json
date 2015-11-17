@@ -46,7 +46,7 @@
   },
   "offline-apps": {
    "title": "Offline web applications",
-   "description": "Method of defining web page files to be cached using a cache manifest file, allowing them to work offline on subsequent visits to the page"
+   "description": "Now deprecated method of defining web page files to be cached using a cache manifest file, allowing them to work offline on subsequent visits to the page. "
   },
   "webworkers": {
    "title": "Web Workers",
@@ -78,11 +78,11 @@
   },
   "css-table": {
    "title": "CSS Table display",
-   "description": "Method of displaying elements as tables, rows, and cells. Includes support for all display: table-* properties as well as `display: inline-table`"
+   "description": "Method of displaying elements as tables, rows, and cells. Includes support for all display: table-*` properties as well as `display: inline-table`"
   },
   "css-gencontent": {
    "title": "CSS Generated content for pseudo-elements",
-   "description": "Method of displaying text or images before or after the given elements contents using the ::before and ::after pseudo-elements. All browsers with support also support the attr() notation in the `content` property. "
+   "description": "Method of displaying text or images before or after the given elements contents using the ::before and ::after pseudo-elements. All browsers with support also support the attr()` notation in the `content` property. "
   },
   "css-fixed": {
    "title": "CSS position:fixed",
@@ -90,7 +90,7 @@
   },
   "beacon": {
    "title": "Beacon API",
-   "description": "Allows data to be sent asynchronously to a server with navigator.sendBeacon, even after a page was closed. Useful for posting analytics data the moment a user was finished using the page."
+   "description": "Allows data to be sent asynchronously to a server with navigator.sendBeacon`, even after a page was closed. Useful for posting analytics data the moment a user was finished using the page."
   },
   "hashchange": {
    "title": "Hashchange event",
@@ -98,11 +98,11 @@
   },
   "css-sel2": {
    "title": "CSS 2.1 selectors",
-   "description": "Basic CSS selectors including: * (universal selector), `>` (child selector), `:first-child`, `:link`, `:visited`, `:active`, `:hover`, `:focus`, `:lang()`, `+` (adjacent sibling selector), `[attr]`, `[attr=\"val\"]`, `[attr~=\"val\"]`, `[attr|=\"bar\"]`, `.foo` (class selector), `#foo` (id selector)"
+   "description": "Basic CSS selectors including: *` (universal selector), `>` (child selector), `:first-child`, `:link`, `:visited`, `:active`, `:hover`, `:focus`, `:lang()`, `+` (adjacent sibling selector), `[attr]`, `[attr=\"val\"]`, `[attr~=\"val\"]`, `[attr|=\"bar\"]`, `.foo` (class selector), `#foo` (id selector)"
   },
   "css-sel3": {
    "title": "CSS3 selectors",
-   "description": "Advanced element selection using selectors including: [foo^=\"bar\"], `[foo$=\"bar\"]`, `[foo*=\"bar\"]`, `:root`, `:nth-child()`,  `:nth-last-child()`, `nth-of-type`, `nth-last-of-type()`, `:last-child`, `:first-of-type`, `:last-of-type`, `:only-child`, `:only-of-type`, `:empty`, `:target`, `:enabled`, `:disabled`, `:checked`, `:not()`, `~` (general sibling)"
+   "description": "Advanced element selection using selectors including: [foo^=\"bar\"]`, `[foo$=\"bar\"]`, `[foo*=\"bar\"]`, `:root`, `:nth-child()`,  `:nth-last-child()`, `nth-of-type`, `nth-last-of-type()`, `:last-child`, `:first-of-type`, `:last-of-type`, `:only-child`, `:only-of-type`, `:empty`, `:target`, `:enabled`, `:disabled`, `:checked`, `:not()`, `~` (general sibling)"
   },
   "css-textshadow": {
    "title": "CSS3 Text-shadow",
@@ -134,7 +134,7 @@
   },
   "transforms2d": {
    "title": "CSS3 2D Transforms",
-   "description": "Method of transforming an element including rotating, scaling, etc. Includes support for transform as well as `transform-origin` properties."
+   "description": "Method of transforming an element including rotating, scaling, etc. Includes support for transform` as well as `transform-origin` properties."
   },
   "use-strict": {
    "title": "ECMAScript 5 Strict Mode",
@@ -146,7 +146,7 @@
   },
   "transforms3d": {
    "title": "CSS3 3D Transforms",
-   "description": "Method of transforming an element in the third dimension using the transform property. Includes support for the `perspective` property to set the perspective in z-space and the `backface-visibility` property to toggle display of the reverse side of a 3D-transformed element."
+   "description": "Method of transforming an element in the third dimension using the transform` property. Includes support for the `perspective` property to set the perspective in z-space and the `backface-visibility` property to toggle display of the reverse side of a 3D-transformed element."
   },
   "sharedworkers": {
    "title": "Shared Web Workers",
@@ -238,7 +238,7 @@
   },
   "online-status": {
    "title": "Online/offline status",
-   "description": "Events to indicate when the users connected (online and `offline` events) and the `navigator.onLine` property to see current status."
+   "description": "Events to indicate when the users connected (online` and `offline` events) and the `navigator.onLine` property to see current status."
   },
   "eventsource": {
    "title": "Server-sent events",
@@ -286,7 +286,7 @@
   },
   "flexbox": {
    "title": "Flexible Box Layout Module",
-   "description": "Method of positioning elements in horizontal or vertical stacks. Support includes the support for the all properties prefixed with flex as well as `display: flex`, `display: inline-flex`, `align-content`, `align-items`, `align-self`, `justify-content` and `order`."
+   "description": "Method of positioning elements in horizontal or vertical stacks. Support includes the support for the all properties prefixed with flex` as well as `display: flex`, `display: inline-flex`, `align-content`, `align-items`, `align-self`, `justify-content` and `order`."
   },
   "webgl": {
    "title": "WebGL - 3D Canvas graphics",
@@ -306,7 +306,7 @@
   },
   "hidden": {
    "title": "hidden attribute",
-   "description": "The hidden attribute may be applied to any element, and effectively hides elements similar to `display: none` in CSS."
+   "description": "The hidden` attribute may be applied to any element, and effectively hides elements similar to `display: none` in CSS."
   },
   "script-async": {
    "title": "async attribute for external scripts",
@@ -314,7 +314,7 @@
   },
   "mediasource": {
    "title": "Media Source Extensions",
-   "description": "API allowing media data to be accessed from HTML video and `audio` elements."
+   "description": "API allowing media data to be accessed from HTML video` and `audio` elements."
   },
   "cors": {
    "title": "Cross-Origin Resource Sharing",
@@ -326,7 +326,7 @@
   },
   "calc": {
    "title": "calc() as CSS unit value",
-   "description": "Method of allowing calculated values for length units, i.e. width: calc(100% - 3em)"
+   "description": "Method of allowing calculated values for length units, i.e. width: calc(100% - 3em)`"
   },
   "dom-range": {
    "title": "Document Object Model Range",
@@ -342,11 +342,11 @@
   },
   "form-validation": {
    "title": "Form validation",
-   "description": "Method of setting required fields and field types without requiring JavaScript. This includes preventing forms from being submitted when appropriate, the checkValidity() method as well as support for the `:invalid`, `:valid`, and `:required` CSS pseudo-classes."
+   "description": "Method of setting required fields and field types without requiring JavaScript. This includes preventing forms from being submitted when appropriate, the checkValidity()` method as well as support for the `:invalid`, `:valid`, and `:required` CSS pseudo-classes."
   },
   "history": {
    "title": "Session history management",
-   "description": "Method of manipulating the users browser's session history in JavaScript using history.pushState, `history.replaceState` and the `popstate` event."
+   "description": "Method of manipulating the users browser's session history in JavaScript using history.pushState`, `history.replaceState` and the `popstate` event."
   },
   "json": {
    "title": "JSON parsing",
@@ -374,7 +374,7 @@
   },
   "wordwrap": {
    "title": "CSS3 Overflow-wrap",
-   "description": "Allows lines to be broken within words if an otherwise unbreakable string is too long to fit. Currently mostly supported using the word-wrap property."
+   "description": "Allows lines to be broken within words if an otherwise unbreakable string is too long to fit. Currently mostly supported using the word-wrap` property."
   },
   "pointerlock": {
    "title": "PointerLock API",
@@ -438,7 +438,7 @@
   },
   "rem": {
    "title": "rem (root em) units",
-   "description": "Type of unit similar to em, but relative only to the root element, not any parent element. Thus compounding does not occur as it does with `em` units."
+   "description": "Type of unit similar to em`, but relative only to the root element, not any parent element. Thus compounding does not occur as it does with `em` units."
   },
   "ttf": {
    "title": "TTF/OTF - TrueType and OpenType font support",
@@ -502,7 +502,7 @@
   },
   "spellcheck-attribute": {
    "title": "Spellcheck attribute",
-   "description": "Attribute for input/`textarea` fields to enable/disable the browsers spellchecker."
+   "description": "Attribute for input`/`textarea` fields to enable/disable the browsers spellchecker."
   },
   "fullscreen": {
    "title": "Full Screen API",
@@ -514,7 +514,7 @@
   },
   "requestanimationframe": {
    "title": "requestAnimationFrame",
-   "description": "API allowing a more efficient way of running script-based animation, compared to traditional methods using timeouts. Also covers support for cancelAnimationFrame"
+   "description": "API allowing a more efficient way of running script-based animation, compared to traditional methods using timeouts. Also covers support for cancelAnimationFrame`"
   },
   "input-range": {
    "title": "Range input type",
@@ -526,7 +526,7 @@
   },
   "input-datetime": {
    "title": "Date and time input types",
-   "description": "Form field widget to easily allow users to enter a date or a time, generally by using a calendar/time input widget."
+   "description": "Form field widget to easily allow users to enter a date, time or both, generally by using a calendar/time input widget."
   },
   "document-execcommand": {
    "title": "Document.execCommand()",
@@ -550,7 +550,7 @@
   },
   "css-counters": {
    "title": "CSS Counters",
-   "description": "Method of controlling number values in generated content, using the counter-reset and `counter-increment` properties."
+   "description": "Method of controlling number values in generated content, using the counter-reset` and `counter-increment` properties."
   },
   "css-resize": {
    "title": "CSS resize property",
@@ -626,7 +626,7 @@
   },
   "input-file-accept": {
    "title": "accept attribute for file input",
-   "description": "Allows a filter to be defined for what type of files a user may pick with from an <input type=\"file\"> dialog"
+   "description": "Allows a filter to be defined for what type of files a user may pick with from an <input type=\"file\">` dialog"
   },
   "webp": {
    "title": "WebP image format",
@@ -634,11 +634,11 @@
   },
   "input-autocomplete-onoff": {
    "title": "autocomplete attribute: on & off values",
-   "description": "The autocomplete attribute for `input` elements indicates to the browser whether a value should or should not be autofilled when appropriate."
+   "description": "The autocomplete` attribute for `input` elements indicates to the browser whether a value should or should not be autofilled when appropriate."
   },
   "intrinsic-width": {
    "title": "Intrinsic & Extrinsic Sizing",
-   "description": "Allows for the heights and widths to be specified in intrinsic values using the fill, `max-content`, `min-content`, and `fit-content` properties."
+   "description": "Allows for the heights and widths to be specified in intrinsic values using the fill`, `max-content`, `min-content`, and `fit-content` properties."
   },
   "cryptography": {
    "title": "Web Cryptography",
@@ -674,15 +674,15 @@
   },
   "css-placeholder": {
    "title": "::placeholder CSS pseudo-element",
-   "description": "The ::placeholder pseudo-element represents placeholder text in an input field: text that represents the input and provides a hint to the user on how to fill out the form. For example, a date-input field might have the placeholder text YYYY/MM/DD to clarify that numeric dates are to be entered in year-month-day order."
+   "description": "The ::placeholder pseudo-element represents placeholder text in an input field: text that represents the input and provides a hint to the user on how to fill out the form. For example, a date-input field might have the placeholder text YYYY/MM/DD` to clarify that numeric dates are to be entered in year-month-day order."
   },
   "css-deviceadaptation": {
    "title": "CSS Device Adaptation",
-   "description": "A standard way to override the size of viewport in web page using the @viewport rule, standardizing and replacing Apples own popular `<meta>` viewport implementation."
+   "description": "A standard way to override the size of viewport in web page using the @viewport` rule, standardizing and replacing Apples own popular `<meta>` viewport implementation."
   },
   "text-emphasis": {
    "title": "text-emphasis styling",
-   "description": "Method of using small symbols next to each glyph to emphasize a run of text, commonly used in East Asian languages. The text-emphasis shorthand, and its `text-emphasis-style` and `text-emphasis-color` longhands, can be used to apply marks to the text. The `text-emphasis-position` property, which inherits separately, allows setting the emphasis marks position with respect to the text."
+   "description": "Method of using small symbols next to each glyph to emphasize a run of text, commonly used in East Asian languages. The text-emphasis` shorthand, and its `text-emphasis-style` and `text-emphasis-color` longhands, can be used to apply marks to the text. The `text-emphasis-position` property, which inherits separately, allows setting the emphasis marks position with respect to the text."
   },
   "midi": {
    "title": "Web MIDI API",
@@ -705,8 +705,8 @@
    "description": "CSS3 cursor values added in the 2004 spec, including none, context-menu, cell, vertical-text, alias, copy, no-drop, not-allowed, nesw-resize, nwse-resize, col-resize, row-resize and all-scroll. "
   },
   "css3-cursors-newer": {
-   "title": "CSS3 Cursors (new values)",
-   "description": "Support for zoom-in and `zoom-out` values for the CSS3 `cursor` property."
+   "title": "CSS3 Cursors: zoom-in & zoom-out",
+   "description": "Support for zoom-in`, `zoom-out` values for the CSS3 `cursor` property."
   },
   "webvtt": {
    "title": "WebVTT - Web Video Text Tracks",
@@ -722,7 +722,7 @@
   },
   "dialog": {
    "title": "Dialog element",
-   "description": "Method of easily creating custom dialog boxes to display to the user with modal or non-modal options. Also includes a ::backdrop pseudo-element for behind the element."
+   "description": "Method of easily creating custom dialog boxes to display to the user with modal or non-modal options. Also includes a ::backdrop` pseudo-element for behind the element."
   },
   "css-variables": {
    "title": "CSS Variables",
@@ -746,7 +746,7 @@
   },
   "high-resolution-time": {
    "title": "High Resolution Time API",
-   "description": "Method to provide the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments. Called using performance.now()"
+   "description": "Method to provide the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments. Called using performance.now()`"
   },
   "battery-status": {
    "title": "Battery Status API",
@@ -758,11 +758,11 @@
   },
   "text-decoration": {
    "title": "text-decoration styling",
-   "description": "Method of defining the type, style and color of lines in the text-decoration property. These can be defined as shorthand (e.g. text-decoration: line-through dashed blue) or as single properties (e.g. `text-decoration-color: blue`)"
+   "description": "Method of defining the type, style and color of lines in the text-decoration property. These can be defined as shorthand (e.g. text-decoration: line-through dashed blue`) or as single properties (e.g. `text-decoration-color: blue`)"
   },
   "iframe-srcdoc": {
    "title": "srcdoc attribute for iframes",
-   "description": "Override the content specified in the src attribute (if present) with HTML content within the attribute."
+   "description": "Override the content specified in the src` attribute (if present) with HTML content within the attribute."
   },
   "speech-synthesis": {
    "title": "Speech Synthesis API",
@@ -798,7 +798,7 @@
   },
   "kerning-pairs-ligatures": {
    "title": "Improved kerning pairs & ligatures",
-   "description": "Currently non-standard method of improving kerning pairs & ligatures using text-rendering: optimizeLegibility."
+   "description": "Currently non-standard method of improving kerning pairs & ligatures using text-rendering: optimizeLegibility`."
   },
   "iframe-seamless": {
    "title": "seamless attribute for iframes",
@@ -846,7 +846,7 @@
   },
   "css-appearance": {
    "title": "CSS Appearance",
-   "description": "The appearance property defines how elements (particularly form controls) appear by default. By setting the value to `none` the default appearance can be entirely redefined using other CSS properties."
+   "description": "The appearance` property defines how elements (particularly form controls) appear by default. By setting the value to `none` the default appearance can be entirely redefined using other CSS properties."
   },
   "objectrtc": {
    "title": "Object RTC (ORTC) API for WebRTC",
@@ -854,7 +854,7 @@
   },
   "css-background-offsets": {
    "title": "CSS background-position edge offsets",
-   "description": "Allows CSS background images to be positioned relative to the specified edge using the 3 to 4 value syntax. For example: background-position: right 5px bottom 5px; for positioning 5px from the bottom-right corner."
+   "description": "Allows CSS background images to be positioned relative to the specified edge using the 3 to 4 value syntax. For example: background-position: right 5px bottom 5px;` for positioning 5px from the bottom-right corner."
   },
   "css-supports-api": {
    "title": "CSS.supports() API",
@@ -894,7 +894,7 @@
   },
   "css-font-stretch": {
    "title": "CSS font-stretch",
-   "description": "If a font has multiple types of variations based on the width of characters, the font-stretch property allows the appropriate one to be selected. The property in itself does not cause the browser to stretch to a font."
+   "description": "If a font has multiple types of variations based on the width of characters, the font-stretch` property allows the appropriate one to be selected. The property in itself does not cause the browser to stretch to a font."
   },
   "font-size-adjust": {
    "title": "CSS font-size-adjust",
@@ -902,19 +902,19 @@
   },
   "link-icon-png": {
    "title": "PNG favicons",
-   "description": "Icon used by browsers to identify a webpage or site. While all browsers support the .ico format, the PNG format can be preferable."
+   "description": "Icon used by browsers to identify a webpage or site. While all browsers support the .ico` format, the PNG format can be preferable."
   },
   "link-icon-svg": {
    "title": "SVG favicons",
-   "description": "Icon used by browsers to identify a webpage or site. While all browsers support the .ico format, the SVG format can be preferable to more easily support higher resolutions or larger icons."
+   "description": "Icon used by browsers to identify a webpage or site. While all browsers support the .ico` format, the SVG format can be preferable to more easily support higher resolutions or larger icons."
   },
   "css-media-resolution": {
    "title": "Media Queries: resolution feature",
-   "description": "Allows a media query to be set based on the device pixels used per CSS unit. While the standard uses min/`max-resolution` for this, some browsers support the older non-standard `device-pixel-ratio` media query."
+   "description": "Allows a media query to be set based on the device pixels used per CSS unit. While the standard uses min`/`max-resolution` for this, some browsers support the older non-standard `device-pixel-ratio` media query."
   },
   "xml-serializer": {
    "title": "DOM Parsing and Serialization",
-   "description": "Various DOM parsing and serializing functions, specifically DOMParser, `XMLSerializer`, `innerHTML`, `outerHTML` and `adjacentHTML`."
+   "description": "Various DOM parsing and serializing functions, specifically DOMParser`, `XMLSerializer`, `innerHTML`, `outerHTML` and `adjacentHTML`."
   },
   "css-image-set": {
    "title": "CSS image-set",
@@ -926,7 +926,7 @@
   },
   "object-observe": {
    "title": "Object.observe data binding",
-   "description": "Method for data binding, part of the ECMAScript 7 proposals"
+   "description": "Method for data binding, a now-withdrawn ECMAScript 7 proposal"
   },
   "css-at-counter-style": {
    "title": "CSS Counter Styles",
@@ -946,11 +946,11 @@
   },
   "css-crisp-edges": {
    "title": "Crisp edges/pixelated images",
-   "description": "Forces images to be scaled with an algorithm that preserves contrast and edges in the image, without smoothing colors or introduce blur. This is intended for images such as pixel art. Official values that accomplish this for the image-rendering property are `crisp-edges` and `pixelated`."
+   "description": "Forces images to be scaled with an algorithm that preserves contrast and edges in the image, without smoothing colors or introduce blur. This is intended for images such as pixel art. Official values that accomplish this for the image-rendering` property are `crisp-edges` and `pixelated`."
   },
   "css-text-align-last": {
    "title": "CSS3 text-align-last",
-   "description": "CSS property to describe how the last line of a block or a line right before a forced line break when text-align is `justify`."
+   "description": "CSS property to describe how the last line of a block or a line right before a forced line break when text-align` is `justify`."
   },
   "css-logical-props": {
    "title": "CSS Logical Properties",
@@ -966,11 +966,11 @@
   },
   "background-attachment": {
    "title": "CSS background-attachment",
-   "description": "Method of defining how a background image is attached to a scrollable element. Values include scroll (default), `fixed` and `local`."
+   "description": "Method of defining how a background image is attached to a scrollable element. Values include scroll` (default), `fixed` and `local`."
   },
   "currentcolor": {
    "title": "CSS currentColor value",
-   "description": "A CSS value that will apply the existing color value to other properties like `background-color`, etc. "
+   "description": "A CSS value that will apply the existing color` value to other properties like `background-color`, etc. "
   },
   "input-pattern": {
    "title": "Pattern attribute for input fields",
@@ -978,7 +978,7 @@
   },
   "registerprotocolhandler": {
    "title": "Custom protocol handling",
-   "description": "Method of allowing a webpage to handle a given protocol using navigator.registerProtocolHandler. This allows certain URLs to be opened by a given web application, for example `mailto:` addresses can be opened by a webmail client."
+   "description": "Method of allowing a webpage to handle a given protocol using navigator.registerProtocolHandler`. This allows certain URLs to be opened by a given web application, for example `mailto:` addresses can be opened by a webmail client."
   },
   "css-snappoints": {
    "title": "CSS Scroll snap points",
@@ -990,7 +990,7 @@
   },
   "css-media-interaction": {
    "title": "Media Queries: interaction media features",
-   "description": "Allows a media query to be set based on the presence and accuracy of the users pointing device, and whether they have the ability to hover over elements on the page. This includes the pointer, `any-pointer`, `hover`, and `any-hover` media features."
+   "description": "Allows a media query to be set based on the presence and accuracy of the users pointing device, and whether they have the ability to hover over elements on the page. This includes the pointer`, `any-pointer`, `hover`, and `any-hover` media features."
   },
   "ime": {
    "title": "Input Method Editor API",
@@ -1042,7 +1042,7 @@
   },
   "fieldset-disabled": {
    "title": "disabled attribute of the fieldset element",
-   "description": "Allows disabling all of the form control descendants of a fieldset via a disabled attribute on the fieldset element itself."
+   "description": "Allows disabling all of the form control descendants of a fieldset via a disabled` attribute on the fieldset element itself."
   },
   "font-variant-alternates": {
    "title": "CSS font-variant-alternates",
@@ -1054,11 +1054,11 @@
   },
   "es5": {
    "title": "ECMAScript 5",
-   "description": "Full support for the ECMAScript 5 specification. Features include Function.prototype.bind, Array methods like `indexOf`, `forEach`, `map` & `filter`, Object methods like `defineProperty`, `create` & `keys`, the `trim` method on Strings and many more."
+   "description": "Full support for the ECMAScript 5 specification. Features include Function.prototype.bind`, Array methods like `indexOf`, `forEach`, `map` & `filter`, Object methods like `defineProperty`, `create` & `keys`, the `trim` method on Strings and many more."
   },
   "page-transition-events": {
    "title": "PageTransitionEvent",
-   "description": "Fired at the Window when the pages entry in the session history stops being the current entry. Includes the pageshow and `pagehide` events."
+   "description": "Fired at the Window when the pages entry in the session history stops being the current entry. Includes the pageshow` and `pagehide` events."
   },
   "ogg-vorbis": {
    "title": "Ogg Vorbis audio format",
@@ -1090,7 +1090,7 @@
   },
   "link-rel-prefetch": {
    "title": "Resource Hints: prefetch",
-   "description": "Informs the browsers that a given resource should be prefetched so it can be loaded more quickly. This is indicated using <link rel=\"prefetch\" href=\"(url)\">"
+   "description": "Informs the browsers that a given resource should be prefetched so it can be loaded more quickly. This is indicated using <link rel=\"prefetch\" href=\"(url)\">`"
   },
   "ol-reversed": {
    "title": "Reversed attribute of ordered lists",
@@ -1110,7 +1110,7 @@
   },
   "css-all": {
    "title": "CSS all property",
-   "description": "A shorthand property for resetting all CSS properties except for direction and `unicode-bidi`."
+   "description": "A shorthand property for resetting all CSS properties except for direction` and `unicode-bidi`."
   },
   "css-initial-value": {
    "title": "CSS initial value",
@@ -1134,7 +1134,7 @@
   },
   "arrow-functions": {
    "title": "Arrow functions",
-   "description": "Function shorthand using => syntax and lexical `this` binding."
+   "description": "Function shorthand using =>` syntax and lexical `this` binding."
   },
   "asmjs": {
    "title": "asm.js",
@@ -1146,11 +1146,11 @@
   },
   "link-rel-dns-prefetch": {
    "title": "Resource Hints: dns-prefetch",
-   "description": "Gives a hint to the browser to perform a DNS lookup in the background to improve performance. This is indicated using <link rel=\"dns-prefetch\" href=\"http://example-domain.com/\">"
+   "description": "Gives a hint to the browser to perform a DNS lookup in the background to improve performance. This is indicated using <link rel=\"dns-prefetch\" href=\"http://example-domain.com/\">`"
   },
   "link-rel-prerender": {
    "title": "Resource Hints: prerender",
-   "description": "Gives a hint to the browser to render the specified page in the background, speeding up page load if the user navigates to it. This is indicated using <link rel=\"prerender\" href=\"(url)\">"
+   "description": "Gives a hint to the browser to render the specified page in the background, speeding up page load if the user navigates to it. This is indicated using <link rel=\"prerender\" href=\"(url)\">`"
   },
   "rest-parameters": {
    "title": "Rest parameters",
@@ -1182,7 +1182,7 @@
   },
   "documenthead": {
    "title": "document.head",
-   "description": "Convenience property for accessing the <head> element"
+   "description": "Convenience property for accessing the <head>` element"
   },
   "innertext": {
    "title": "Node.innerText",
@@ -1194,7 +1194,7 @@
   },
   "link-rel-preconnect": {
    "title": "Resource Hints: preconnect",
-   "description": "Gives a hint to the browser to begin the connection handshake (DNS, TCP, TLS) in the background to improve performance. This is indicated using <link rel=\"preconnect\" href=\"https://example-domain.com/\">"
+   "description": "Gives a hint to the browser to begin the connection handshake (DNS, TCP, TLS) in the background to improve performance. This is indicated using <link rel=\"preconnect\" href=\"https://example-domain.com/\">`"
   },
   "netinfo": {
    "title": "Network Information API",
@@ -1206,7 +1206,7 @@
   },
   "es6-number": {
    "title": "ES6 Number",
-   "description": "Extensions to the Number built-in object in ES6, including constant properties `EPSILON`, `MIN_SAFE_INTEGER`, and `MAX_SAFE_INTEGER`, and methods ` isFinite`, `isInteger`, `isSafeInteger`, and `isNaN`."
+   "description": "Extensions to the Number` built-in object in ES6, including constant properties `EPSILON`, `MIN_SAFE_INTEGER`, and `MAX_SAFE_INTEGER`, and methods ` isFinite`, `isInteger`, `isSafeInteger`, and `isNaN`."
   },
   "maxlength": {
    "title": "maxlength attribute for input and textarea elements",
@@ -1218,27 +1218,55 @@
   },
   "keyboardevent-which": {
    "title": "KeyboardEvent.which",
-   "description": "A KeyboardEvent property that is equivalent to either `KeyboardEvent.keyCode` or `KeyboardEvent.charCode` depending on whether the key is alphanumeric."
+   "description": "A legacy KeyboardEvent` property that is equivalent to either `KeyboardEvent.keyCode` or `KeyboardEvent.charCode` depending on whether the key is alphanumeric."
   },
   "keyboardevent-charcode": {
    "title": "KeyboardEvent.charCode",
-   "description": "A legacy KeyboardEvent property that gives the Unicode codepoint number of a character key pressed during a `keypress` event."
+   "description": "A legacy KeyboardEvent` property that gives the Unicode codepoint number of a character key pressed during a `keypress` event."
   },
   "keyboardevent-code": {
    "title": "KeyboardEvent.code",
-   "description": "A KeyboardEvent property representing the physical key that was pressed, ignoring the keyboard layout and ignoring whether any modifier keys were active."
+   "description": "A KeyboardEvent` property representing the physical key that was pressed, ignoring the keyboard layout and ignoring whether any modifier keys were active."
   },
   "keyboardevent-location": {
    "title": "KeyboardEvent.location",
-   "description": "A KeyboardEvent property that indicates the location of the key on the input device. Useful when there are more than one physical key for the same logical key (e.g. left or right \"Control\" key; main or numpad \"1\" key)."
+   "description": "A KeyboardEvent` property that indicates the location of the key on the input device. Useful when there are more than one physical key for the same logical key (e.g. left or right \"Control\" key; main or numpad \"1\" key)."
   },
   "keyboardevent-getmodifierstate": {
    "title": "KeyboardEvent.getModifierState()",
-   "description": "KeyboardEvent method that returns the state (whether the key is pressed/locked or not) of the given modifier key."
+   "description": "KeyboardEvent` method that returns the state (whether the key is pressed/locked or not) of the given modifier key."
   },
   "keyboardevent-key": {
    "title": "KeyboardEvent.key",
-   "description": "A KeyboardEvent property whose value is a string identifying the key that was pressed. Covers character keys, non-character keys (e.g. arrow keys), and dead keys."
+   "description": "A KeyboardEvent` property whose value is a string identifying the key that was pressed. Covers character keys, non-character keys (e.g. arrow keys), and dead keys."
+  },
+  "brotli": {
+   "title": "Brotli Accept-Encoding/Content-Encoding",
+   "description": "More effective lossless compression algorithm than gzip and deflate."
+  },
+  "element-closest": {
+   "title": "Element.closest()",
+   "description": "DOM method that returns the current element if it matches the given selector, or else the closest ancestor element that matches the given selector, or else null."
+  },
+  "input-event": {
+   "title": "input event",
+   "description": "The input` event is fired when the user changes the value of an `<input>` element, `<select>` element, or `<textarea>` element. By contrast, the \"change\" event usually only fires after the form control has lost focus."
+  },
+  "input-search": {
+   "title": "Search input type",
+   "description": "Search field form input type. Intended to look like the underlying platforms native search field widget (if there is one). Other than its appearance, it's the same as an <input type=\"text\">`."
+  },
+  "css-motion-paths": {
+   "title": "CSS motion paths",
+   "description": "Allows elements to be animated along SVG paths or shapes"
+  },
+  "css-scroll-behavior": {
+   "title": "CSSOM Scroll-behavior",
+   "description": "Method of specifying the scrolling behavior for a scrolling box, when scrolling happens due to navigation or CSSOM scrolling APIs."
+  },
+  "subresource-integrity": {
+   "title": "Subresource Integrity",
+   "description": "Subresource Integrity enables browsers to verify that file is delivered without unexpected manipulation."
   }
  },
  "browsers": {
@@ -1248,27 +1276,27 @@
   },
   "edge": {
    "name": "Edge",
-   "version": "12"
+   "version": "13"
   },
   "firefox": {
    "name": "Firefox",
-   "version": "41"
+   "version": "42"
   },
   "chrome": {
    "name": "Chrome",
-   "version": "45"
+   "version": "46"
   },
   "safari": {
    "name": "Safari",
-   "version": "8"
+   "version": "9"
   },
   "opera": {
    "name": "Opera",
-   "version": "32"
+   "version": "33"
   },
   "ios safari": {
    "name": "iOS Safari",
-   "version": "9"
+   "version": "9.0-9.1"
   },
   "opera mini": {
    "name": "Opera Mini",
@@ -1284,15 +1312,15 @@
   },
   "opera mobile": {
    "name": "Opera Mobile",
-   "version": "30"
+   "version": "33"
   },
   "chrome for android": {
    "name": "Chrome for Android",
-   "version": "44"
+   "version": "46"
   },
   "firefox for android": {
    "name": "Firefox for Android",
-   "version": "40"
+   "version": "42"
   },
   "ie mobile": {
    "name": "IE Mobile",
