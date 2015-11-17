@@ -112,13 +112,16 @@ a:hover {
   }
 }
 .legend-title {
-  display: inline;
-  margin-right: 1.5em;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 1.5em 0 0;
 }
 .legend-item > .point {
   margin: 0 4px 0 0;
 }
 .legend-item > label {
+  display: inline-block;
+  overflow: hidden;
   margin-right: 1.2em;
 }
 
@@ -155,6 +158,10 @@ a:hover {
   margin: 3px 2px;
   border-radius: 11px;
 }
+.point::after {
+  content: "•";
+  opacity: 0;
+}
 .y {
   background-color: rgb(107, 222, 90);
 }
@@ -171,10 +178,12 @@ a:hover {
   opacity: 0.5;
 }
 .x::after {
-  content: "•";
+  opacity: 1;
 }
 
 /* FOOTER */
 footer {
+  border-top: 1px solid #999;
   margin: 1em 0;
+  padding: 1em 0;
 }
