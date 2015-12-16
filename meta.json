@@ -130,7 +130,7 @@
   },
   "border-radius": {
    "title": "CSS3 Border-radius (rounded corners)",
-   "description": "Method of making the border corners round"
+   "description": "Method of making the border corners round. Covers support for the shorthand border-radius` as well as the long-hand properties (e.g. `border-top-left-radius`)"
   },
   "transforms2d": {
    "title": "CSS3 2D Transforms",
@@ -1257,7 +1257,7 @@
    "description": "Search field form input type. Intended to look like the underlying platforms native search field widget (if there is one). Other than its appearance, it's the same as an <input type=\"text\">`."
   },
   "css-motion-paths": {
-   "title": "CSS motion paths",
+   "title": "CSS Motion Path",
    "description": "Allows elements to be animated along SVG paths or shapes"
   },
   "css-scroll-behavior": {
@@ -1267,6 +1267,10 @@
   "subresource-integrity": {
    "title": "Subresource Integrity",
    "description": "Subresource Integrity enables browsers to verify that file is delivered without unexpected manipulation."
+  },
+  "push-api": {
+   "title": "Push API",
+   "description": "API to allow messages to be pushed from a server to a browser, even when the site isnt focused or even open in the browser."
   }
  },
  "browsers": {
@@ -1284,7 +1288,7 @@
   },
   "chrome": {
    "name": "Chrome",
-   "version": "46"
+   "version": "47"
   },
   "safari": {
    "name": "Safari",
@@ -1292,11 +1296,11 @@
   },
   "opera": {
    "name": "Opera",
-   "version": "33"
+   "version": "34"
   },
   "ios safari": {
    "name": "iOS Safari",
-   "version": "9.0-9.1"
+   "version": "9.0-9.2"
   },
   "opera mini": {
    "name": "Opera Mini",
@@ -1304,7 +1308,7 @@
   },
   "android browser": {
    "name": "Android Browser",
-   "version": "44"
+   "version": "46"
   },
   "blackberry browser": {
    "name": "Blackberry Browser",
@@ -1316,7 +1320,7 @@
   },
   "chrome for android": {
    "name": "Chrome for Android",
-   "version": "46"
+   "version": "47"
   },
   "firefox for android": {
    "name": "Firefox for Android",
