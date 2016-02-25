@@ -42,7 +42,11 @@
   },
   "html5semantic": {
    "title": "New semantic elements",
-   "description": "HTML5 offers some new elements, primarily for semantic purposes. The elements include: section, article, aside, header, footer, nav, figure, figcaption, time, mark, main."
+   "description": "HTML5 offers some new elements, primarily for semantic purposes. The elements include: section`, `article`, `aside`, `header`, `footer`, `nav`, `figure`, `figcaption`, `time`, `mark` & `main`."
+  },
+  "css-line-clamp": {
+   "title": "CSS line-clamp",
+   "description": "Proprietary and undocumented CSS property that will contain text to a given amount of lines when used in combination with display: -webkit-box`. It will end with ellipsis when `text-overflow: ellipsis` is included."
   },
   "offline-apps": {
    "title": "Offline web applications",
@@ -202,7 +206,7 @@
   },
   "svg-fonts": {
    "title": "SVG fonts",
-   "description": "Method of using fonts defined as SVG shapes. Considered among a number of browser vendors as a deprecated feature with support being removed."
+   "description": "Method of using fonts defined as SVG shapes. Removed from [SVG 2.0](http://www.w3.org/TR/SVG2/changes.html#fonts) and considered as a deprecated feature with support being removed from browsers."
   },
   "svg-filters": {
    "title": "SVG filters",
@@ -802,7 +806,7 @@
   },
   "iframe-seamless": {
    "title": "seamless attribute for iframes",
-   "description": "The seamless attribute makes an iframes contents actually part of a page, and adopts the styles from its hosting page. "
+   "description": "The seamless attribute makes an iframes contents actually part of a page, and adopts the styles from its hosting page. The attribute has been [removed from the current specification](https://github.com/whatwg/html/issues/331). "
   },
   "css-image-orientation": {
    "title": "CSS3 image-orientation",
@@ -1268,9 +1272,29 @@
    "title": "Subresource Integrity",
    "description": "Subresource Integrity enables browsers to verify that file is delivered without unexpected manipulation."
   },
+  "css-in-out-of-range": {
+   "title": ":in-range and :out-of-range CSS pseudo-classes",
+   "description": "If a temporal or number <input>` has `max` and/or `min` attributes, then `:in-range` matches when the value is within the specified range and `:out-of-range` matches when the value is outside the specified range. If there are no range constraints, then neither pseudo-class matches."
+  },
   "push-api": {
    "title": "Push API",
    "description": "API to allow messages to be pushed from a server to a browser, even when the site isnt focused or even open in the browser."
+  },
+  "background-position-x-y": {
+   "title": "background-position-x & background-position-y",
+   "description": "CSS longhand properties to define x or y positions separately."
+  },
+  "css-revert-value": {
+   "title": "CSS revert value",
+   "description": "A CSS keyword value that resets a propertys value to the default specified by the browser in its UA stylesheet, as if the webpage had not included any CSS. For example, display:revert` on a `<div>` would result in `display:block`. This is in contrast to the `initial` value, which is simply defined on a per-property basis, and for `display` would be `inline`."
+  },
+  "css-widows-orphans": {
+   "title": "CSS widows & orphans",
+   "description": "CSS properties to control when lines break across pages or columns by defining the amount of lines that must be left before or after the break."
+  },
+  "web-bluetooth": {
+   "title": "Web Bluetooth",
+   "description": "Access user-selected Bluetooth devices over GATT"
   }
  },
  "browsers": {
@@ -1284,11 +1308,11 @@
   },
   "firefox": {
    "name": "Firefox",
-   "version": "42"
+   "version": "44"
   },
   "chrome": {
    "name": "Chrome",
-   "version": "47"
+   "version": "48"
   },
   "safari": {
    "name": "Safari",
@@ -1308,7 +1332,7 @@
   },
   "android browser": {
    "name": "Android Browser",
-   "version": "46"
+   "version": "47"
   },
   "blackberry browser": {
    "name": "Blackberry Browser",
@@ -1324,7 +1348,7 @@
   },
   "firefox for android": {
    "name": "Firefox for Android",
-   "version": "42"
+   "version": "44"
   },
   "ie mobile": {
    "name": "IE Mobile",
