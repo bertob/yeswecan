@@ -259,7 +259,7 @@
   "y",
   "y",
   "a x",
-  "a x",
+  "a",
   "a",
   "a x"
  ],
@@ -331,9 +331,9 @@
   "y",
   "y",
   "y",
-  "y #3",
-  "n",
-  "y x"
+  "y",
+  "y",
+  "y"
  ],
  "css-animation": [
   "y",
@@ -357,7 +357,7 @@
   "n",
   "n",
   "y x",
-  "y x"
+  "n"
  ],
  "css-reflections": [
   "n",
@@ -869,7 +869,7 @@
   "a #1",
   "n d #2",
   "n",
-  "n"
+  "n d #2"
  ],
  "css-zoom": [
   "y #1",
@@ -897,7 +897,7 @@
  ],
  "touch": [
   "p",
-  "y",
+  "n d #3",
   "n d #1",
   "y",
   "n",
@@ -1148,7 +1148,7 @@
   "a #4",
   "y",
   "y x",
-  "y x",
+  "y",
   "y x"
  ],
  "getcomputedstyle": [
@@ -1219,7 +1219,7 @@
   "y",
   "y",
   "y",
-  "a #1",
+  "y",
   "n",
   "a #1"
  ],
@@ -1285,7 +1285,7 @@
   "a x #1 #2 #3",
   "y #3 #4",
   "a x #3",
-  "y #3"
+  "y #3 #4"
  ],
  "cryptography": [
   "a x #1",
@@ -1370,7 +1370,7 @@
  "text-emphasis": [
   "n",
   "n",
-  "n",
+  "n d #2",
   "a x #1",
   "y",
   "a x #1"
@@ -1459,9 +1459,9 @@
   "n",
   "n",
   "y",
-  "n d #1",
-  "n",
-  "n"
+  "y",
+  "y",
+  "y"
  ],
  "vibration": [
   "n",
@@ -1525,7 +1525,7 @@
   "y",
   "n x d #1",
   "a x #2",
-  "n"
+  "n x d #1"
  ],
  "iframe-srcdoc": [
   "p",
@@ -1572,7 +1572,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "css-shapes": [
@@ -1628,7 +1628,7 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "woff2": [
@@ -1732,7 +1732,7 @@
   "y",
   "n d #1",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "autofocus": [
@@ -1762,7 +1762,7 @@
  "screen-orientation": [
   "a x",
   "a x",
-  "a x",
+  "y",
   "y",
   "n",
   "y"
@@ -1797,7 +1797,7 @@
   "y",
   "y",
   "n",
-  "n"
+  "y"
  ],
  "font-size-adjust": [
   "n",
@@ -1805,7 +1805,7 @@
   "y",
   "n d #1",
   "n",
-  "n"
+  "n d #1"
  ],
  "link-icon-png": [
   "y",
@@ -1859,7 +1859,7 @@
   "n",
   "n",
   "n",
-  "y",
+  "n",
   "n",
   "y"
  ],
@@ -1932,7 +1932,7 @@
   "a #1",
   "y",
   "y",
-  "y",
+  "a #1",
   "y"
  ],
  "background-attachment": [
@@ -2010,7 +2010,7 @@
  "audiotracks": [
   "y",
   "y",
-  "n",
+  "n d #1",
   "n",
   "y",
   "n"
@@ -2052,7 +2052,7 @@
   "n",
   "y",
   "y",
-  "y x",
+  "y",
   "y"
  ],
  "jpeg2000": [
@@ -2100,7 +2100,7 @@
   "n #1",
   "y",
   "n #1",
-  "n",
+  "y",
   "n #1"
  ],
  "form-attribute": [
@@ -2156,7 +2156,7 @@
   "n",
   "n",
   "n",
-  "y x",
+  "y",
   "n"
  ],
  "css-element-function": [
@@ -2228,7 +2228,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "css-initial-value": [
@@ -2252,7 +2252,7 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "insertadjacenthtml": [
@@ -2267,9 +2267,9 @@
   "y",
   "y",
   "y",
-  "a #3",
+  "y",
   "n",
-  "a #3"
+  "y"
  ],
  "arrow-functions": [
   "n",
@@ -2378,7 +2378,7 @@
  "innertext": [
   "y",
   "y",
-  "n",
+  "y",
   "y",
   "y",
   "y"
@@ -2435,9 +2435,9 @@
   "n",
   "y",
   "y",
+  "y",
   "n",
-  "n",
-  "n"
+  "y"
  ],
  "keyboardevent-which": [
   "y",
@@ -2461,7 +2461,7 @@
   "y",
   "y",
   "n",
-  "n d #1"
+  "y"
  ],
  "keyboardevent-location": [
   "y",
@@ -2491,9 +2491,9 @@
   "n",
   "n",
   "y",
+  "n d #1",
   "n",
-  "n",
-  "n"
+  "n d #1"
  ],
  "element-closest": [
   "n",
@@ -2555,7 +2555,7 @@
   "n",
   "n",
   "y #2",
-  "a #1 #2",
+  "a #2",
   "n",
   "n"
  ],
@@ -2572,7 +2572,7 @@
   "n",
   "n",
   "n",
-  "n",
+  "y",
   "n"
  ],
  "css-widows-orphans": [
@@ -2590,5 +2590,109 @@
   "n d #1",
   "n",
   "n"
+ ],
+ "scrollintoview": [
+  "a #1",
+  "a #1",
+  "y",
+  "a #1",
+  "a #1",
+  "a #1"
+ ],
+ "css-nth-child-of": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "y",
+  "n"
+ ],
+ "focusin-focusout-events": [
+  "y",
+  "y",
+  "n",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-matches-pseudo": [
+  "n",
+  "n",
+  "a x #3",
+  "a x #1",
+  "y #2",
+  "a x #1"
+ ],
+ "rel-noopener": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "css-text-justify": [
+  "a #1",
+  "a #1",
+  "n",
+  "n d #2",
+  "n",
+  "n d #2"
+ ],
+ "css-scrollbar": [
+  "a #1",
+  "n",
+  "n",
+  "y x #2",
+  "y x #2",
+  "y x #2"
+ ],
+ "link-rel-preload": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "n"
+ ],
+ "css-case-insensitive": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-default-pseudo": [
+  "n",
+  "n",
+  "y",
+  "a #1",
+  "a #1",
+  "a #1"
+ ],
+ "css-indeterminate-pseudo": [
+  "a #1",
+  "a #1",
+  "a #1",
+  "y",
+  "a #1",
+  "y"
+ ],
+ "webgl2": [
+  "n",
+  "n",
+  "n d #2",
+  "n d #3",
+  "n",
+  "n"
+ ],
+ "document-currentscript": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
  ]
 }

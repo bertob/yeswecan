@@ -729,7 +729,7 @@
    "description": "Method of easily creating custom dialog boxes to display to the user with modal or non-modal options. Also includes a ::backdrop` pseudo-element for behind the element."
   },
   "css-variables": {
-   "title": "CSS Variables",
+   "title": "CSS Variables (Custom Properties)",
    "description": "Permits the declaration and usage of cascading variables in stylesheets."
   },
   "vibration": {
@@ -950,7 +950,7 @@
   },
   "css-crisp-edges": {
    "title": "Crisp edges/pixelated images",
-   "description": "Forces images to be scaled with an algorithm that preserves contrast and edges in the image, without smoothing colors or introduce blur. This is intended for images such as pixel art. Official values that accomplish this for the image-rendering` property are `crisp-edges` and `pixelated`."
+   "description": "Scales images with an algorithm that preserves edges and contrast, without smoothing colors or introducing blur. This is intended for images such as pixel art. Official values that accomplish this for the image-rendering` property are `crisp-edges` and `pixelated`."
   },
   "css-text-align-last": {
    "title": "CSS3 text-align-last",
@@ -1295,6 +1295,58 @@
   "web-bluetooth": {
    "title": "Web Bluetooth",
    "description": "Access user-selected Bluetooth devices over GATT"
+  },
+  "scrollintoview": {
+   "title": "scrollIntoView",
+   "description": "The Element.scrollIntoView()` method scrolls the current element into the visible area of the browser window. Parameters can be provided to set the position inside the visible area as well as whether scrolling should be instant or smooth."
+  },
+  "css-nth-child-of": {
+   "title": "selector list argument of :nth-child and :nth-last-child CSS pseudo-classes",
+   "description": "The newest versions of :nth-child()` and `:nth-last-child()` accept an optional `of S` clause which filters the children to only those which match the selector list `S`. For example, `:nth-child(1 of .foo)` selects the first child among the children that have the `foo` class (ignoring any non-`foo` children which precede that child). Similar to `:nth-of-type`, but for arbitrary selectors instead of only type selectors."
+  },
+  "focusin-focusout-events": {
+   "title": "focusin & focusout events",
+   "description": "The focusin` and `focusout` events fire just before the element gains or loses focus, and they bubble. By contrast, the `focus` and `blur` events fire after the focus has shifted, and dont bubble."
+  },
+  "css-matches-pseudo": {
+   "title": ":matches() CSS pseudo-class",
+   "description": "The :matches()` pseudo-class checks whether the element at its position in the outer selector matches any of the selectors in its selector list. Its useful syntactic sugar that allows you to avoid writing out all the combinations manually as separate selectors. The effect is similar to nesting in Sass and most other CSS preprocessors."
+  },
+  "rel-noopener": {
+   "title": "rel=noopener",
+   "description": "Ensure new browsing contexts are opened without a useful window.opener`"
+  },
+  "css-text-justify": {
+   "title": "CSS text-justify",
+   "description": "CSS property to define how text should be justified when text-align: justify` is set."
+  },
+  "css-scrollbar": {
+   "title": "CSS scrollbar styling",
+   "description": "Non-standard methods of styling scrollbars."
+  },
+  "link-rel-preload": {
+   "title": "Resource Hints: preload",
+   "description": "Using <link rel=\"preload\">`, browsers can be informed to prefetch resources without having to execute them, allowing fine-grained control over when and how resources are loaded."
+  },
+  "css-case-insensitive": {
+   "title": "Case-insensitive CSS attribute selectors",
+   "description": "Including an i` before the `]` in a CSS attribute selector causes the attribute value to be matched in an ASCII-case-insensitive manner. For example, `[b=\"xyz\" i]` would match both `<a b=\"xyz\">` and `<a b=\"XYZ\">`."
+  },
+  "css-default-pseudo": {
+   "title": ":default CSS pseudo-class",
+   "description": "The :default` pseudo-class matches checkboxes and radio buttons which are checked by default, `<option>`s with the `selected` attribute, and the default submit button (if any) of a form."
+  },
+  "css-indeterminate-pseudo": {
+   "title": ":indeterminate CSS pseudo-class",
+   "description": "The :indeterminate` pseudo-class matches indeterminate checkboxes, indeterminate `<progress>` bars, and radio buttons with no checked button in their radio button group."
+  },
+  "webgl2": {
+   "title": "WebGL 2.0",
+   "description": "Next version of WebGL. Based on OpenGL ES 3.0."
+  },
+  "document-currentscript": {
+   "title": "document.currentScript",
+   "description": "document.currentScript` returns the `<script>` element whose script is currently being processed."
   }
  },
  "browsers": {
@@ -1308,19 +1360,19 @@
   },
   "firefox": {
    "name": "Firefox",
-   "version": "44"
+   "version": "45"
   },
   "chrome": {
    "name": "Chrome",
-   "version": "48"
+   "version": "50"
   },
   "safari": {
    "name": "Safari",
-   "version": "9"
+   "version": "9.1"
   },
   "opera": {
    "name": "Opera",
-   "version": "34"
+   "version": "36"
   },
   "ios safari": {
    "name": "iOS Safari",
@@ -1340,15 +1392,15 @@
   },
   "opera mobile": {
    "name": "Opera Mobile",
-   "version": "33"
+   "version": "36"
   },
   "chrome for android": {
    "name": "Chrome for Android",
-   "version": "47"
+   "version": "49"
   },
   "firefox for android": {
    "name": "Firefox for Android",
-   "version": "44"
+   "version": "45"
   },
   "ie mobile": {
    "name": "IE Mobile",
