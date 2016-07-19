@@ -404,6 +404,10 @@
    "title": "CSS text-stroke",
    "description": "Method of declaring the outline (stroke) width and color for text."
   },
+  "chacha20-poly1305": {
+   "title": "ChaCha20-Poly1305 cipher suites for TLS",
+   "description": "A set of cipher suites used in Transport Layer Security (TLS) protocol, using ChaCha20 for symmetric encryption and Poly1305 for authentication."
+  },
   "inline-block": {
    "title": "CSS inline-block",
    "description": "Method of displaying an element as a block while flowing it with text. "
@@ -1310,7 +1314,7 @@
   },
   "css-matches-pseudo": {
    "title": ":matches() CSS pseudo-class",
-   "description": "The :matches()` pseudo-class checks whether the element at its position in the outer selector matches any of the selectors in its selector list. Its useful syntactic sugar that allows you to avoid writing out all the combinations manually as separate selectors. The effect is similar to nesting in Sass and most other CSS preprocessors."
+   "description": "The :matches()` (formerly `:any()`) pseudo-class checks whether the element at its position in the outer selector matches any of the selectors in its selector list. Its useful syntactic sugar that allows you to avoid writing out all the combinations manually as separate selectors. The effect is similar to nesting in Sass and most other CSS preprocessors."
   },
   "rel-noopener": {
    "title": "rel=noopener",
@@ -1374,7 +1378,7 @@
   },
   "dom-manip-convenience": {
    "title": "DOM manipulation convenience methods",
-   "description": "jQuery-like methods on DOM nodes to insert nodes around or within a node, or to replace one node with another. These methods accept any number of DOM nodes or HTML strings as arguments. Includes: ChildNode.before`, `ChildNode.after, `ChildNode.replaceWith`, `ParentNode.prepend`, and `ParentNode.append`."
+   "description": "jQuery-like methods on DOM nodes to insert nodes around or within a node, or to replace one node with another. These methods accept any number of DOM nodes or HTML strings as arguments. Includes: ChildNode.before`, `ChildNode.after`, `ChildNode.replaceWith`, `ParentNode.prepend`, and `ParentNode.append`."
   },
   "requestidlecallback": {
    "title": "requestIdleCallback",
@@ -1387,6 +1391,38 @@
   "css3-attr": {
    "title": "CSS3 attr() function",
    "description": "CSS Values and Units Level 3 adds the ability to use attr()` on any CSS property, not just `content`, and to use it for non-string values (e.g. numbers, colors)."
+  },
+  "css-containment": {
+   "title": "CSS Containment",
+   "description": "The CSS contain` property lets developers limit the scope of the browsers styles, layout and paint work for faster and more efficient rendering."
+  },
+  "tls1-2": {
+   "title": "TLS 1.2",
+   "description": "The latest version of the Transport Layer Security (TLS) protocol. Allows for data/message confidentiality, and message authentication codes for message integrity and as a by-product message authentication."
+  },
+  "tls1-1": {
+   "title": "TLS 1.1",
+   "description": "Version 1.1 of the Transport Layer Security (TLS) protocol."
+  },
+  "input-inputmode": {
+   "title": "inputmode attribute",
+   "description": "The inputmode` attribute specifies what kind of input mechanism would be most helpful for users entering content into the form control."
+  },
+  "ch-unit": {
+   "title": "ch (character) unit",
+   "description": "Unit representing the width of the character \"0\" in the current font, of particular use in combination with monospace fonts."
+  },
+  "img-naturalwidth-naturalheight": {
+   "title": "naturalWidth & naturalHeight image properties",
+   "description": "Properties defining the intrinsic width and height of the image, rather than the displayed width & height."
+  },
+  "filereadersync": {
+   "title": "FileReaderSync",
+   "description": "Allows files to be read synchronously in Web Workers"
+  },
+  "mediarecorder": {
+   "title": "MediaRecorder API",
+   "description": "The MediaRecorder API (MediaStream Recording) aims to provide a really simple mechanism by which developers can record media streams from the users input devices and instantly use them in web apps, rather than having to perform manual encoding operations on raw PCM data, etc."
   }
  },
  "browsers": {
@@ -1420,7 +1456,7 @@
   },
   "opera mini": {
    "name": "Opera Mini",
-   "version": "5.0-8.0"
+   "version": "all"
   },
   "android browser": {
    "name": "Android Browser",
@@ -1436,7 +1472,7 @@
   },
   "chrome for android": {
    "name": "Chrome for Android",
-   "version": "50"
+   "version": "51"
   },
   "firefox for android": {
    "name": "Firefox for Android",
@@ -1449,6 +1485,10 @@
   "uc browser for android": {
    "name": "UC Browser for Android",
    "version": "9.9"
+  },
+  "samsung internet": {
+   "name": "Samsung Internet",
+   "version": "4"
   }
  }
 }
