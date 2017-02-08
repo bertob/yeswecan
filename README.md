@@ -3,6 +3,8 @@ Yes We Can
 
 Awesome visualization of **ALL** the browser support data from [caniuse.com](http://caniuse.com).
 
+![A sick screenshot of the site](img/yeswecan.png)
+
 ### But Why?
 I like Can I Use, but I usually don't need all the detail it provides on individual features. Most of the time, all I care about is whether the latest version of every browser at least partially supports a given feature. Also, I don't want to open a new tab for every single feature when I only need so little of the information from each page.
 
