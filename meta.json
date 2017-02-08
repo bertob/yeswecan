@@ -301,7 +301,7 @@
    "description": "Method of manipulating file objects in web applications client-side, as well as programmatically selecting them and accessing their data."
   },
   "shadowdom": {
-   "title": "Shadow DOM",
+   "title": "Shadow DOM v0",
    "description": "Method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM."
   },
   "websockets": {
@@ -401,7 +401,7 @@
    "description": "The <details> element generates a simple no-JavaScript widget to show/hide element contents, optionally by clicking on its child <summary> element."
   },
   "text-stroke": {
-   "title": "CSS text-stroke",
+   "title": "CSS text-stroke and text-fill",
    "description": "Method of declaring the outline (stroke) width and color for text."
   },
   "chacha20-poly1305": {
@@ -486,7 +486,7 @@
   },
   "typedarrays": {
    "title": "Typed Arrays",
-   "description": "JavaScript typed arrays provide a mechanism for accessing raw binary data much more efficiently.\r\n"
+   "description": "JavaScript typed arrays provide a mechanism for accessing raw binary data much more efficiently. Includes: Int8Array`, `Uint8Array`, `Uint8ClampedArray`, `Int16Array`, `Uint16Array`, `Int32Array`, `Uint32Array`, `Float32Array` & `Float64Array`\r\n"
   },
   "deviceorientation": {
    "title": "DeviceOrientation & DeviceMotion events",
@@ -837,8 +837,8 @@
    "description": "Method to help web developers to collect complete timing information related to resources on a document."
   },
   "custom-elements": {
-   "title": "Custom Elements",
-   "description": "Method of defining and using new types of DOM elements in a document."
+   "title": "Custom Elements v0",
+   "description": "Method of defining new HTML tags."
   },
   "imports": {
    "title": "HTML Imports",
@@ -870,7 +870,7 @@
   },
   "css-touch-action": {
    "title": "CSS touch-action property",
-   "description": "touch-action is a CSS property that controls filtering of gesture events, providing developers with a declarative mechanism to selectively disable touch scrolling (in one or both axes), pinch-zooming or double-tap-zooming."
+   "description": "touch-action is a CSS property that controls filtering of gesture events, providing developers with a declarative mechanism to selectively disable touch scrolling (in one or both axes) or double-tap-zooming."
   },
   "autofocus": {
    "title": "Autofocus attribute",
@@ -922,7 +922,7 @@
   },
   "xml-serializer": {
    "title": "DOM Parsing and Serialization",
-   "description": "Various DOM parsing and serializing functions, specifically DOMParser`, `XMLSerializer`, `innerHTML`, `outerHTML` and `adjacentHTML`."
+   "description": "Various DOM parsing and serializing functions, specifically DOMParser`, `XMLSerializer`, `innerHTML`, `outerHTML` and `insertAdjacentHTML`."
   },
   "css-image-set": {
    "title": "CSS image-set",
@@ -1182,7 +1182,7 @@
   },
   "addeventlistener": {
    "title": "EventTarget.addEventListener()",
-   "description": "The modern standard API for adding DOM event handlers. Introduced in the DOM Level 2 Events spec. Also implies support for the [capture phase](https://dom.spec.whatwg.org/#dom-event-capturing_phase) of DOM event dispatch and preventDefault()`."
+   "description": "The modern standard API for adding DOM event handlers. Introduced in the DOM Level 2 Events spec. Also implies support for the [capture phase](https://dom.spec.whatwg.org/#dom-event-capturing_phase) of DOM event dispatch, as well as the stopPropagation()` and `preventDefault()` event methods."
   },
   "dispatchevent": {
    "title": "EventTarget.dispatchEvent",
@@ -1194,7 +1194,7 @@
   },
   "innertext": {
    "title": "Node.innerText",
-   "description": "A currently-nonstandard property representing the text within a DOM element and its descendants. As a getter, it approximates the text the user would get if they highlighted the contents of the element with the cursor and then copied to the clipboard."
+   "description": "A property representing the text within a DOM element and its descendants. As a getter, it approximates the text the user would get if they highlighted the contents of the element with the cursor and then copied to the clipboard."
   },
   "client-hints-dpr-width-viewport": {
    "title": "Client Hints: DPR, Width, Viewport-Width",
@@ -1276,6 +1276,10 @@
    "title": "Subresource Integrity",
    "description": "Subresource Integrity enables browsers to verify that file is delivered without unexpected manipulation."
   },
+  "custom-elementsv1": {
+   "title": "Custom Elements v1",
+   "description": "Method of defining new HTML tags."
+  },
   "css-in-out-of-range": {
    "title": ":in-range and :out-of-range CSS pseudo-classes",
    "description": "If a temporal or number <input>` has `max` and/or `min` attributes, then `:in-range` matches when the value is within the specified range and `:out-of-range` matches when the value is outside the specified range. If there are no range constraints, then neither pseudo-class matches."
@@ -1283,6 +1287,10 @@
   "push-api": {
    "title": "Push API",
    "description": "API to allow messages to be pushed from a server to a browser, even when the site isnt focused or even open in the browser."
+  },
+  "flac": {
+   "title": "FLAC audio format",
+   "description": "Popular lossless audio compression format"
   },
   "background-position-x-y": {
    "title": "background-position-x & background-position-y",
@@ -1298,7 +1306,7 @@
   },
   "web-bluetooth": {
    "title": "Web Bluetooth",
-   "description": "Access user-selected Bluetooth devices over GATT"
+   "description": "Allows web sites to communicate over GATT with nearby user-selected Bluetooth devices in a secure and privacy-preserving way."
   },
   "scrollintoview": {
    "title": "scrollIntoView",
@@ -1352,6 +1360,10 @@
    "title": "WebGL 2.0",
    "description": "Next version of WebGL. Based on OpenGL ES 3.0."
   },
+  "css-initial-letter": {
+   "title": "CSS Initial Letter",
+   "description": "Method of creating an enlarged cap, including a drop or raised cap, in a robust way."
+  },
   "document-currentscript": {
    "title": "document.currentScript",
    "description": "document.currentScript` returns the `<script>` element whose script is currently being processed."
@@ -1360,6 +1372,10 @@
    "title": "Explicit descendant combinator >>",
    "description": "An explicit, non-whitespace spelling of the descendant combinator. A >> B` is equivalent to `A B`."
   },
+  "same-site-cookie-attribute": {
+   "title": "SameSite' cookie attribute",
+   "description": "Same-site cookies (née \"First-Party-Only\" (née \"First-Party\")) allow servers to mitigate the risk of CSRF and information leakage attacks by asserting that a particular cookie should only be sent with requests initiated from the same registrable domain."
+  },
   "css-has": {
    "title": ":has() CSS relational pseudo-class",
    "description": "Only select elements containing specified content. For example, a:has(>img)` selects all `<a>` elements that contain an `<img>` child."
@@ -1367,6 +1383,10 @@
   "css-not-sel-list": {
    "title": "selector list argument of :not()",
    "description": "Selectors Level 4 allows the :not()` pseudo-class to accept a list of selectors, which the element must not match any of. Selectors Level 3 only allowed `:not()` to accept a single simple selector. Thus, `:not(a):not(.b):not([c])` can instead be written as `:not(a, .b, [c])`"
+  },
+  "credential-management": {
+   "title": "Credential Management API",
+   "description": "API that provides a programmatic interface to the browsers credential manager. In short, an origin can request a user's credentials to sign them in, or can ask the browser to save credentials on the user's behalf. Both of these requests are user-mediated."
   },
   "css-dir-pseudo": {
    "title": ":dir() CSS pseudo-class",
@@ -1391,6 +1411,10 @@
   "css3-attr": {
    "title": "CSS3 attr() function",
    "description": "CSS Values and Units Level 3 adds the ability to use attr()` on any CSS property, not just `content`, and to use it for non-string values (e.g. numbers, colors)."
+  },
+  "sdch": {
+   "title": "SDCH Accept-Encoding/Content-Encoding",
+   "description": "Shared Dictionary Compression over HTTP"
   },
   "css-containment": {
    "title": "CSS Containment",
@@ -1423,6 +1447,146 @@
   "mediarecorder": {
    "title": "MediaRecorder API",
    "description": "The MediaRecorder API (MediaStream Recording) aims to provide a really simple mechanism by which developers can record media streams from the users input devices and instantly use them in web apps, rather than having to perform manual encoding operations on raw PCM data, etc."
+  },
+  "readonly-attr": {
+   "title": "readonly attribute of input and textarea elements",
+   "description": "Makes the form control non-editable. Unlike the disabled` attribute, `readonly` form controls are still included in form submissions and the user can still select (but not edit) their value text."
+  },
+  "x-frame-options": {
+   "title": "X-Frame-Options HTTP header",
+   "description": "An HTTP header which indicates whether the browser should allow the webpage to be displayed in a frame within another webpage. Used as a defense against clickjacking attacks."
+  },
+  "indeterminate-checkbox": {
+   "title": "indeterminate checkbox",
+   "description": "Indeterminate checkboxes are displayed in a state which is distinct both from being checked or being unchecked. They are commonly used in hierarchical checkboxes to indicate that only some of the checkboxs descendants are checked."
+  },
+  "tabindex-attr": {
+   "title": "tabindex global attribute",
+   "description": "Specifies the focusability of the element and in what order (if any) it should become focused (relative to other elements) when \"tabbing\" through the document."
+  },
+  "textencoder": {
+   "title": "TextEncoder & TextDecoder",
+   "description": "TextEncoder` encodes a JavaScript string into bytes using the UTF-8 encoding and returns the resulting `Uint8Array` of those bytes. `TextDecoder` does the reverse."
+  },
+  "element-from-point": {
+   "title": "document.elementFromPoint()",
+   "description": "Given coordinates for a point relative to the viewport, returns the element that a click event would be dispatched at if the user were to click the point (in other words, the element that hit-testing would find)."
+  },
+  "insert-adjacent": {
+   "title": "Element.insertAdjacentElement() & Element.insertAdjacentText()",
+   "description": "Methods for inserting an element or text before or after a given element, or appending or prepending an element or text to a given elements list of children."
+  },
+  "once-event-listener": {
+   "title": "\"once\" event listener option",
+   "description": "Causes an event listener to be automatically removed after it gets invoked, so that it only gets invoked once. Similar to jQuerys $.one()` feature."
+  },
+  "passive-event-listener": {
+   "title": "Passive event listeners",
+   "description": "Event listeners created with the passive: true` option cannot cancel (`preventDefault()`) the events they receive. Primarily intended to be used with touch events and `wheel` events. Since they cannot prevent scrolls, passive event listeners allow the browser to perform optimizations that result in smoother scrolling."
+  },
+  "selection-api": {
+   "title": "Selection API",
+   "description": "API for accessing selected content of a document, including the window.getSelection()` method, as well as the `selectstart` & `selectionchange` events on `document`."
+  },
+  "payment-request": {
+   "title": "Payment Request API",
+   "description": "Payment Request is a new API for the open web that makes checkout flows easier, faster and consistent on shopping sites."
+  },
+  "shadowdomv1": {
+   "title": "Shadow DOM v1",
+   "description": "Method of establishing and maintaining functional boundaries between DOM trees and how these trees interact with each other within a document, thus enabling better functional encapsulation within the DOM & CSS."
+  },
+  "urlsearchparams": {
+   "title": "URLSearchParams",
+   "description": "The URLSearchParams interface defines utility methods to work with the query string of a URL."
+  },
+  "css-font-rendering-controls": {
+   "title": "CSS font-rendering controls",
+   "description": "@font-face` descriptor (currently defined as `font-display`) that allows control over how a downloadable font renders before it is fully loaded."
+  },
+  "wasm": {
+   "title": "WebAssembly",
+   "description": "WebAssembly or \"wasm\" is a new portable, size- and load-time-efficient format suitable for compilation to the web."
+  },
+  "css-paged-media": {
+   "title": "CSS Paged Media (@page)",
+   "description": "CSS at-rule (@page`) to define page-specific rules when printing web pages, such as margin per page and page dimensions."
+  },
+  "childnode-remove": {
+   "title": "ChildNode.remove()",
+   "description": "DOM node method to remove the node itself from the document."
+  },
+  "css-first-line": {
+   "title": "CSS first-line pseudo-element",
+   "description": "Allows styling specifically for the first line of text using the ::first-line` pseudo-element. Note that only a limited set of properties can be applied."
+  },
+  "mutation-events": {
+   "title": "Mutation events",
+   "description": "Deprecated mechanism for listening to changes made to the DOM, replaced by Mutation Observers."
+  },
+  "web-app-manifest": {
+   "title": "Web App Manifest",
+   "description": "The web app manifest provides information about an application (such as name, author, icon, and description) in a JSON file, which browsers can use to give richer offline experiences."
+  },
+  "comparedocumentposition": {
+   "title": "Node.compareDocumentPosition()",
+   "description": "Compares the relative position of two nodes to each other in the DOM tree."
+  },
+  "http-live-streaming": {
+   "title": "HTTP Live Streaming (HLS)",
+   "description": "HTTP-based media streaming communications protocol"
+  },
+  "es6-module": {
+   "title": "ES6 module",
+   "description": "Import/export modules in JavaScript in ES6"
+  },
+  "es6-class": {
+   "title": "ES6 classes",
+   "description": "ES6 classes are syntactical sugar to provide a much simpler and clearer syntax to create objects and deal with inheritance."
+  },
+  "ping": {
+   "title": "Ping attribute",
+   "description": "When used on an anchor, this attribute signifies that the browser should a ping request the resource the attribute points to."
+  },
+  "form-submit-attributes": {
+   "title": "Attributes for form submission",
+   "description": "Attributes for form submission that may be specified on submit buttons. The attributes are: formaction`, `formenctype`, `formmethod`, `formnovalidate`, and `formtarget`"
+  },
+  "async-functions": {
+   "title": "Async functions",
+   "description": "Async function make it possible treat functions returning Promise objects as if they were synchronous."
+  },
+  "css-text-indent": {
+   "title": "CSS text-indent",
+   "description": "The text-indent` property applies indentation to lines of inline content in a block."
+  },
+  "intersectionobserver": {
+   "title": "IntersectionObserver",
+   "description": "API that can be used to understand the visibility and position of DOM elements relative to a containing element or to the top-level viewport. The position is delivered asynchronously and is useful for understanding the visibility of elements and implementing pre-loading and deferred loading of DOM content."
+  },
+  "css-marker-pseudo": {
+   "title": "CSS ::marker pseudo-element",
+   "description": "The ::marker` pseudo-element allows list item markers to be styled or have their content value customized."
+  },
+  "url": {
+   "title": "URL API",
+   "description": "API to retrieve the various parts that make up a given URL from a given URL string."
+  },
+  "flow-root": {
+   "title": "display: flow-root",
+   "description": "The element generates a block container box, and lays out its contents using flow layout. It always establishes a new block formatting context for its contents. The result is the same as the \"clearfix\" hack."
+  },
+  "css-rrggbbaa": {
+   "title": "#rrggbbaa hex color notation",
+   "description": "The CSS Color Module Level 4 defines new 4 & 8 character hex notation for color to include the opacity level."
+  },
+  "beforeafterprint": {
+   "title": "Printing Events",
+   "description": "Window fires beforeprint` and `afterprint` events so the printed document can be annotated."
+  },
+  "webvr": {
+   "title": "WebVR API",
+   "description": "API for accessing virtual reality (VR) devices, including sensors and head-mounted displays."
   }
  },
  "browsers": {
@@ -1432,27 +1596,27 @@
   },
   "edge": {
    "name": "Edge",
-   "version": "13"
+   "version": "14"
   },
   "firefox": {
    "name": "Firefox",
-   "version": "47"
+   "version": "51"
   },
   "chrome": {
    "name": "Chrome",
-   "version": "51"
+   "version": "56"
   },
   "safari": {
    "name": "Safari",
-   "version": "9.1"
+   "version": "10"
   },
   "opera": {
    "name": "Opera",
-   "version": "38"
+   "version": "42"
   },
   "ios safari": {
    "name": "iOS Safari",
-   "version": "9.3"
+   "version": "10.0-10.2"
   },
   "opera mini": {
    "name": "Opera Mini",
@@ -1460,7 +1624,7 @@
   },
   "android browser": {
    "name": "Android Browser",
-   "version": "50"
+   "version": "53"
   },
   "blackberry browser": {
    "name": "Blackberry Browser",
@@ -1472,11 +1636,11 @@
   },
   "chrome for android": {
    "name": "Chrome for Android",
-   "version": "51"
+   "version": "55"
   },
   "firefox for android": {
    "name": "Firefox for Android",
-   "version": "46"
+   "version": "51"
   },
   "ie mobile": {
    "name": "IE Mobile",
@@ -1484,7 +1648,7 @@
   },
   "uc browser for android": {
    "name": "UC Browser for Android",
-   "version": "9.9"
+   "version": "11"
   },
   "samsung internet": {
    "name": "Samsung Internet",
