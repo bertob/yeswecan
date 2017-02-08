@@ -26,3 +26,6 @@ node data.js
 And that's it. Now the visualization should be up to date with the latest browser support data.
 
 Unfortunately, since the site is running on Github Pages, there's no way (to my knowledge) to automatically update the data. I'm updating it manually every once in a while, but should I forget, feel free to ping me or create an issue.
+
+### License
+GPLv3, because freedom.
