@@ -258,10 +258,10 @@
  "multicolumn": [
   "y",
   "y",
-  "a x",
-  "a",
-  "a",
-  "a"
+  "a #1",
+  "a #1",
+  "a #1",
+  "a #1"
  ],
  "border-radius": [
   "y",
@@ -354,7 +354,7 @@
  "css-canvas": [
   "n",
   "n",
-  "n",
+  "u",
   "n",
   "y x",
   "n"
@@ -370,7 +370,7 @@
  "css-masks": [
   "n",
   "n",
-  "a #2",
+  "y",
   "a x #1",
   "a x #1",
   "a x #1"
@@ -411,9 +411,9 @@
   "n",
   "n",
   "n",
-  "n #1",
+  "n",
   "y",
-  "n #1"
+  "n"
  ],
  "svg-filters": [
   "y",
@@ -572,7 +572,7 @@
   "y",
   "y",
   "y #1",
-  "y #1",
+  "y",
   "y #1"
  ],
  "flexbox": [
@@ -692,7 +692,7 @@
   "y",
   "y",
   "y",
-  "a #1",
+  "y",
   "y"
  ],
  "history": [
@@ -729,7 +729,7 @@
  ],
  "webm": [
   "p",
-  "y",
+  "a",
   "y",
   "y",
   "p",
@@ -764,7 +764,7 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "object-fit": [
@@ -796,12 +796,12 @@
   "n",
   "y",
   "y",
-  "y #2",
+  "y",
   "y"
  ],
  "text-stroke": [
   "n",
-  "n",
+  "y x #1",
   "y x #1",
   "y x",
   "y x",
@@ -866,10 +866,10 @@
  "css-grid": [
   "a x #2",
   "a x #2",
-  "p d #3",
-  "p d #1",
-  "p",
-  "p d #1"
+  "y #5",
+  "y",
+  "y",
+  "y"
  ],
  "menu": [
   "n",
@@ -906,14 +906,14 @@
  "touch": [
   "p",
   "n d #3",
-  "n d #1",
+  "y",
   "y",
   "n",
   "y"
  ],
  "matchesselector": [
   "a x",
-  "a x",
+  "y",
   "y",
   "y",
   "y",
@@ -1008,8 +1008,8 @@
   "y"
  ],
  "css-regions": [
-  "a x #1",
-  "a x #1",
+  "a x #1 #2",
+  "a x #1 #2",
   "n",
   "n",
   "y x",
@@ -1066,7 +1066,7 @@
  "input-datetime": [
   "n",
   "y",
-  "n",
+  "n d #4",
   "y",
   "n",
   "y"
@@ -1138,7 +1138,7 @@
  "spdy": [
   "y",
   "n",
-  "y",
+  "n",
   "n",
   "y",
   "y"
@@ -1232,8 +1232,8 @@
   "y"
  ],
  "outline": [
-  "y #1",
-  "y #1",
+  "a #1 #2",
+  "y",
   "y",
   "y",
   "y",
@@ -1244,7 +1244,7 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "pointer": [
@@ -1305,7 +1305,7 @@
  ],
  "template": [
   "n",
-  "y",
+  "a #1 #2",
   "y",
   "y",
   "y",
@@ -1338,7 +1338,7 @@
  "css3-tabsize": [
   "n",
   "n",
-  "a x #1",
+  "y x",
   "y",
   "a #1",
   "y"
@@ -1363,9 +1363,9 @@
   "a x",
   "a x",
   "y",
-  "a x",
-  "a x",
-  "a x"
+  "y",
+  "y",
+  "y"
  ],
  "css-deviceadaptation": [
   "a x #1",
@@ -1409,7 +1409,7 @@
  ],
  "rtcpeerconnection": [
   "n",
-  "n",
+  "y",
   "y",
   "y x",
   "n",
@@ -1458,14 +1458,14 @@
  "dialog": [
   "n",
   "n",
-  "n",
+  "n d #1",
   "y",
   "n",
   "y"
  ],
  "css-variables": [
   "n",
-  "n",
+  "a #2",
   "y",
   "y",
   "y",
@@ -1514,26 +1514,26 @@
  "battery-status": [
   "n",
   "n",
-  "y",
+  "n",
   "y",
   "n",
   "y"
  ],
  "serviceworkers": [
   "n",
+  "n d #2",
+  "y",
+  "y",
   "n",
-  "a",
-  "a",
-  "n",
-  "a"
+  "y"
  ],
  "text-decoration": [
   "n",
   "n",
+  "a #4",
   "y",
-  "n x d #1",
   "a x #2 #3",
-  "n x d #1"
+  "y"
  ],
  "iframe-srcdoc": [
   "p",
@@ -1547,7 +1547,7 @@
   "n",
   "y",
   "y",
-  "y",
+  "y #2",
   "y",
   "y"
  ],
@@ -1588,7 +1588,7 @@
   "n",
   "n",
   "y",
-  "y x",
+  "y",
   "y"
  ],
  "domcontentloaded": [
@@ -1618,7 +1618,7 @@
  "iframe-seamless": [
   "n",
   "n",
-  "n",
+  "u",
   "n",
   "n",
   "n"
@@ -1738,9 +1738,9 @@
  "css-touch-action": [
   "y",
   "y",
-  "n d #1",
+  "y #4",
   "y",
-  "a #3",
+  "n",
   "y"
  ],
  "autofocus": [
@@ -1796,7 +1796,7 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "css-font-stretch": [
@@ -1884,7 +1884,7 @@
   "a #1 #2",
   "a #1 #2 #3",
   "a #1 #2 #3",
-  "a #2 #3",
+  "a #1 #2 #3",
   "a #1 #2 #3"
  ],
  "css-placeholder-shown": [
@@ -1922,7 +1922,7 @@
  "css-logical-props": [
   "n",
   "n",
-  "a x #1",
+  "y",
   "a x #2",
   "a x #2",
   "a x #2"
@@ -1932,14 +1932,14 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "referrer-policy": [
   "n",
   "a #1",
   "y",
-  "y",
+  "a #2",
   "a #1",
   "y"
  ],
@@ -1964,7 +1964,7 @@
   "y",
   "y",
   "y",
-  "a #1 #2",
+  "y",
   "y"
  ],
  "registerprotocolhandler": [
@@ -1976,11 +1976,11 @@
   "y #1"
  ],
  "css-snappoints": [
-  "a x #2",
-  "a x #2",
-  "y",
+  "a x #2 #5 #6",
+  "a x #2 #5 #6",
+  "a #5",
   "n",
-  "a x #4",
+  "a x #4 #5",
   "n"
  ],
  "input-minlength": [
@@ -1988,7 +1988,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "css-media-interaction": [
@@ -2033,7 +2033,7 @@
  ],
  "contentsecuritypolicy2": [
   "n",
-  "n",
+  "y",
   "a #7",
   "y",
   "y",
@@ -2076,7 +2076,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "publickeypinning": [
@@ -2339,9 +2339,9 @@
   "a #1",
   "y",
   "y",
+  "y",
   "y x",
-  "y x",
-  "y x"
+  "y"
  ],
  "customevent": [
   "a #1",
@@ -2468,7 +2468,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "keyboardevent-location": [
@@ -2484,7 +2484,7 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "keyboardevent-key": [
@@ -2492,12 +2492,12 @@
   "y",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "brotli": [
   "n",
-  "n",
+  "y",
   "y",
   "y",
   "n",
@@ -2505,7 +2505,7 @@
  ],
  "element-closest": [
   "n",
-  "n",
+  "y",
   "y",
   "y",
   "y",
@@ -2555,16 +2555,16 @@
   "p",
   "p",
   "p",
-  "y",
-  "p",
-  "y"
+  "a #1",
+  "a #1",
+  "a #1"
  ],
  "css-in-out-of-range": [
   "n",
   "a #2",
   "y",
   "y",
-  "a #2 #3",
+  "y",
   "y"
  ],
  "push-api": [
@@ -2572,8 +2572,16 @@
   "n",
   "y #2",
   "y #2",
-  "n",
+  "n #3",
   "y #2"
+ ],
+ "template-literals": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
  ],
  "flac": [
   "n",
@@ -2602,7 +2610,7 @@
  "css-widows-orphans": [
   "y",
   "y",
-  "n",
+  "u",
   "y",
   "y",
   "y"
@@ -2611,9 +2619,9 @@
   "n",
   "n",
   "n",
-  "n d #1 #3",
+  "y #4",
   "n",
-  "n d #1 #3"
+  "y #4"
  ],
  "scrollintoview": [
   "a #1",
@@ -2634,7 +2642,7 @@
  "focusin-focusout-events": [
   "y",
   "y",
-  "n",
+  "y",
   "y",
   "y",
   "y"
@@ -2650,9 +2658,9 @@
  "rel-noopener": [
   "n",
   "n",
-  "n",
   "y",
-  "n",
+  "y",
+  "y",
   "y"
  ],
  "css-text-justify": [
@@ -2692,7 +2700,7 @@
   "n",
   "y",
   "y",
-  "a #1",
+  "y",
   "y"
  ],
  "css-optional-pseudo": [
@@ -2708,7 +2716,7 @@
   "a #1",
   "y",
   "y",
-  "a #1",
+  "y",
   "y"
  ],
  "webgl2": [
@@ -2716,7 +2724,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "n d #4",
   "y"
  ],
  "css-initial-letter": [
@@ -2740,7 +2748,7 @@
   "n",
   "n",
   "n",
-  "y",
+  "n",
   "n"
  ],
  "same-site-cookie-attribute": [
@@ -2786,9 +2794,9 @@
  "css-focus-within": [
   "n",
   "n",
+  "y",
   "n",
-  "n",
-  "n",
+  "y",
   "n"
  ],
  "dom-manip-convenience": [
@@ -2802,7 +2810,7 @@
  "requestidlecallback": [
   "n",
   "n",
-  "n",
+  "y",
   "y",
   "n",
   "y"
@@ -2834,7 +2842,7 @@
  "css-containment": [
   "n",
   "n",
-  "n",
+  "u",
   "y",
   "n",
   "y"
@@ -2932,7 +2940,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "element-from-point": [
@@ -2956,7 +2964,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "passive-event-listener": [
@@ -2970,17 +2978,17 @@
  "selection-api": [
   "y",
   "y",
-  "a #1 #5",
+  "y",
   "y",
   "y",
   "y"
  ],
  "payment-request": [
   "n",
-  "n d #2",
+  "a #3",
   "n",
   "n d #1",
-  "n",
+  "n #4",
   "n d #1"
  ],
  "shadowdomv1": [
@@ -2996,7 +3004,7 @@
   "n",
   "y",
   "y",
-  "n",
+  "y",
   "y"
  ],
  "css-font-rendering-controls": [
@@ -3009,11 +3017,11 @@
  ],
  "wasm": [
   "n",
+  "n d #3",
+  "y",
+  "y",
   "n",
-  "n d #1",
-  "n d #2",
-  "n",
-  "n d #2"
+  "y"
  ],
  "css-paged-media": [
   "a #1",
@@ -3073,10 +3081,10 @@
  ],
  "es6-module": [
   "n",
+  "n d #1",
   "n",
   "n",
-  "n",
-  "n",
+  "y",
   "n"
  ],
  "es6-class": [
@@ -3105,11 +3113,19 @@
  ],
  "async-functions": [
   "n",
-  "n d #1",
-  "n",
   "y",
-  "n",
+  "y",
+  "y",
+  "y",
   "y"
+ ],
+ "html-media-capture": [
+  "n",
+  "n",
+  "n",
+  "n",
+  "n",
+  "n"
  ],
  "css-text-indent": [
   "a #1",
@@ -3121,8 +3137,8 @@
  ],
  "intersectionobserver": [
   "n",
-  "n",
-  "n",
+  "y",
+  "n d #1",
   "y",
   "n",
   "y"
@@ -3135,6 +3151,14 @@
   "n",
   "n"
  ],
+ "dommatrix": [
+  "a #1",
+  "a #1",
+  "y",
+  "a #1",
+  "a #1",
+  "a #1"
+ ],
  "url": [
   "n",
   "y",
@@ -3146,8 +3170,8 @@
  "flow-root": [
   "n",
   "n",
-  "n",
-  "n",
+  "y",
+  "y",
   "n",
   "n"
  ],
@@ -3169,8 +3193,88 @@
  ],
  "webvr": [
   "n",
+  "y #3",
+  "n",
+  "n d #2",
+  "n",
+  "n"
+ ],
+ "css-apply-rule": [
+  "n",
+  "u",
+  "n",
+  "n d #1",
+  "n",
+  "n d #1"
+ ],
+ "css-hanging-punctuation": [
+  "n",
+  "u",
   "n",
   "n",
+  "y",
+  "n"
+ ],
+ "background-repeat-round-space": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "document-evaluate-xpath": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-namespaces": [
+  "y",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-overflow-anchor": [
+  "n",
+  "n",
+  "n",
+  "y",
+  "n",
+  "y"
+ ],
+ "hardwareconcurrency": [
+  "n",
+  "y",
+  "y",
+  "y",
+  "y #1",
+  "y"
+ ],
+ "css-rebeccapurple": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "rel-noreferrer": [
+  "a #1",
+  "y",
+  "y",
+  "y",
+  "y",
+  "y"
+ ],
+ "css-display-contents": [
+  "n",
+  "n",
+  "y",
   "n",
   "n",
   "n"

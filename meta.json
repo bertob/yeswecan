@@ -10,11 +10,11 @@
   },
   "video": {
    "title": "Video element",
-   "description": "Method of playing videos on webpages (without requiring a plug-in)."
+   "description": "Method of playing videos on webpages (without requiring a plug-in). Includes support for the following media properties: currentSrc`, `currentTime`, `paused`, `playbackRate`, `buffered`, `duration`, `played`, `seekable`, `ended`, `autoplay`, `loop`, `controls`, `volume` & `muted"
   },
   "audio": {
    "title": "Audio element",
-   "description": "Method of playing sound on webpages (without requiring a plug-in)."
+   "description": "Method of playing sound on webpages (without requiring a plug-in). Includes support for the following media properties: currentSrc`, `currentTime`, `paused`, `playbackRate`, `buffered`, `duration`, `played`, `seekable`, `ended`, `autoplay`, `loop`, `controls`, `volume` & `muted`"
   },
   "contenteditable": {
    "title": "contenteditable attribute (basic support)",
@@ -434,7 +434,7 @@
   },
   "css-grid": {
    "title": "CSS Grid Layout",
-   "description": "Method of using a grid concept to lay out content, providing a mechanism for authors to divide available space for lay out into columns and rows using a set of predictable sizing behaviors"
+   "description": "Method of using a grid concept to lay out content, providing a mechanism for authors to divide available space for layout into columns and rows using a set of predictable sizing behaviors"
   },
   "menu": {
    "title": "Toolbar/context menu",
@@ -617,8 +617,8 @@
    "description": "Method of displaying only a part of an SVG image by defining a view ID or view box dimensions as the files fragment identifier."
   },
   "outline": {
-   "title": "CSS outline",
-   "description": "The CSS outline property is a shorthand property for setting one or more of the individual outline properties outline-style, outline-width and outline-color in a single rule. In most cases the use of this shortcut is preferable and more convenient."
+   "title": "CSS outline properties",
+   "description": "The CSS outline properties draw a border around an element that does not affect layout, making it ideal for highlighting. This covers the outline` shorthand, as well as `outline-width`, `outline-style`, `outline-color` and `outline-offset`. "
   },
   "download": {
    "title": "Download attribute",
@@ -646,7 +646,7 @@
   },
   "intrinsic-width": {
    "title": "Intrinsic & Extrinsic Sizing",
-   "description": "Allows for the heights and widths to be specified in intrinsic values using the fill`, `max-content`, `min-content`, and `fit-content` properties."
+   "description": "Allows for the heights and widths to be specified in intrinsic values using the max-content`, `min-content`, `fit-content` and `stretch` (formerly `fill`) properties."
   },
   "cryptography": {
    "title": "Web Cryptography",
@@ -781,8 +781,8 @@
    "description": "Method to help web developers measure the performance of their applications by giving them access to high precision timestamps."
   },
   "srcset": {
-   "title": "Srcset attribute",
-   "description": "Allows authors to define various image resources and \"hints\" that assist a user agent to determine the most appropriate image source to display (e.g. high-resolution displays, small monitors, etc)."
+   "title": "Srcset and sizes attributes",
+   "description": "The srcset` and `sizes` attributes on `img` (or `source`) elements allow authors to define various image resources and \"hints\" that assist a user agent to determine the most appropriate image source to display (e.g. high-resolution displays, small monitors, etc)."
   },
   "ambient-light": {
    "title": "Ambient Light API",
@@ -810,7 +810,7 @@
   },
   "iframe-seamless": {
    "title": "seamless attribute for iframes",
-   "description": "The seamless attribute makes an iframes contents actually part of a page, and adopts the styles from its hosting page. The attribute has been [removed from the current specification](https://github.com/whatwg/html/issues/331). "
+   "description": "The seamless attribute makes an iframes contents actually part of a page, and adopts the styles from its hosting page. The attribute has been removed from both [the WHATWG](https://github.com/whatwg/html/issues/331) and [the W3C](https://github.com/w3c/html/pull/325) HTML5 specifications."
   },
   "css-image-orientation": {
    "title": "CSS3 image-orientation",
@@ -877,8 +877,8 @@
    "description": "Allows a form field to be immediately focused on page load."
   },
   "css-clip-path": {
-   "title": "CSS clip-path property",
-   "description": "Method of defining the visible region of an element using SVG or a shape definition."
+   "title": "CSS clip-path property (for HTML)",
+   "description": "Method of defining the visible region of an HTML element using SVG or a shape definition."
   },
   "getrandomvalues": {
    "title": "crypto.getRandomValues()",
@@ -1288,6 +1288,10 @@
    "title": "Push API",
    "description": "API to allow messages to be pushed from a server to a browser, even when the site isnt focused or even open in the browser."
   },
+  "template-literals": {
+   "title": "ES6 Template Literals (Template Strings)",
+   "description": "Template literals are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them. Formerly known as template strings."
+  },
   "flac": {
    "title": "FLAC audio format",
    "description": "Popular lossless audio compression format"
@@ -1554,7 +1558,11 @@
   },
   "async-functions": {
    "title": "Async functions",
-   "description": "Async function make it possible treat functions returning Promise objects as if they were synchronous."
+   "description": "Async function make it possible to treat functions returning Promise objects as if they were synchronous."
+  },
+  "html-media-capture": {
+   "title": "HTML Media Capture",
+   "description": "Facilitates user access to a devices media capture mechanism, such as a camera, or microphone, from within a file upload control."
   },
   "css-text-indent": {
    "title": "CSS text-indent",
@@ -1567,6 +1575,10 @@
   "css-marker-pseudo": {
    "title": "CSS ::marker pseudo-element",
    "description": "The ::marker` pseudo-element allows list item markers to be styled or have their content value customized."
+  },
+  "dommatrix": {
+   "title": "DOMMatrix",
+   "description": "The DOMMatrix` interface represents 4x4 matrices, suitable for 2D and 3D operations. Supersedes the `WebKitCSSMatrix` and `SVGMatrix` interfaces."
   },
   "url": {
    "title": "URL API",
@@ -1587,6 +1599,46 @@
   "webvr": {
    "title": "WebVR API",
    "description": "API for accessing virtual reality (VR) devices, including sensors and head-mounted displays."
+  },
+  "css-apply-rule": {
+   "title": "CSS @apply rule",
+   "description": "Allows a set of CSS properties to be applied using a named variable"
+  },
+  "css-hanging-punctuation": {
+   "title": "CSS hanging-punctuation",
+   "description": "Allows some punctuation characters from start (or the end) of text elements to be placed \"outside\" of the box in order to preserve the reading flow."
+  },
+  "background-repeat-round-space": {
+   "title": "CSS background-repeat round and space",
+   "description": "Allows CSS background images to be repeated without clipping."
+  },
+  "document-evaluate-xpath": {
+   "title": "document.evaluate & XPath",
+   "description": "Allow nodes in an XML/HTML document to be traversed using XPath expressions. "
+  },
+  "css-namespaces": {
+   "title": "CSS namespaces",
+   "description": "Using the @namespace` at-rule, elements of other namespaces (e.g. SVG) can be targeted using the pipe (`|`) selector."
+  },
+  "css-overflow-anchor": {
+   "title": "CSS overflow-anchor (Scroll Anchoring)",
+   "description": "Changes in DOM elements above the visible region of a scrolling box can result in the page moving while the user is in the middle of consuming the content.\r\nBy default, the value of  overflow-anchor` is `auto`, it can mitigate this jarring user experience by keeping track of the position of an anchor node and adjusting the scroll offset accordingly"
+  },
+  "hardwareconcurrency": {
+   "title": "navigator.hardwareConcurrency",
+   "description": "Returns the number of logical cores of the users CPU. The value may be reduced to prevent device fingerprinting or because it exceeds the allowed number of simultaneous web workers."
+  },
+  "css-rebeccapurple": {
+   "title": "Rebeccapurple color",
+   "description": "The new color added in CSS Color Module Level 4"
+  },
+  "rel-noreferrer": {
+   "title": "Link type \"noreferrer\"",
+   "description": "Links with rel=\"noreferrer\"` set do not send the requests \"referrer\" header. This prevents the destination site from seeing what URL the user came from."
+  },
+  "css-display-contents": {
+   "title": "CSS display: contents",
+   "description": "display: contents` causes an elements children to appear as if they were direct children of the element's parent, ignoring the element itself. This can be useful when a wrapper element should be ignored when using CSS grid or similar layout techniques."
   }
  },
  "browsers": {
@@ -1596,27 +1648,27 @@
   },
   "edge": {
    "name": "Edge",
-   "version": "14"
+   "version": "15"
   },
   "firefox": {
    "name": "Firefox",
-   "version": "51"
+   "version": "53"
   },
   "chrome": {
    "name": "Chrome",
-   "version": "56"
+   "version": "58"
   },
   "safari": {
    "name": "Safari",
-   "version": "10"
+   "version": "10.1"
   },
   "opera": {
    "name": "Opera",
-   "version": "42"
+   "version": "44"
   },
   "ios safari": {
    "name": "iOS Safari",
-   "version": "10.0-10.2"
+   "version": "10.3"
   },
   "opera mini": {
    "name": "Opera Mini",
@@ -1624,7 +1676,7 @@
   },
   "android browser": {
    "name": "Android Browser",
-   "version": "53"
+   "version": "56"
   },
   "blackberry browser": {
    "name": "Blackberry Browser",
@@ -1636,11 +1688,11 @@
   },
   "chrome for android": {
    "name": "Chrome for Android",
-   "version": "55"
+   "version": "57"
   },
   "firefox for android": {
    "name": "Firefox for Android",
-   "version": "51"
+   "version": "52"
   },
   "ie mobile": {
    "name": "IE Mobile",
@@ -1648,11 +1700,19 @@
   },
   "uc browser for android": {
    "name": "UC Browser for Android",
-   "version": "11"
+   "version": "11.4"
   },
   "samsung internet": {
    "name": "Samsung Internet",
    "version": "4"
+  },
+  "qq browser": {
+   "name": "QQ Browser",
+   "version": "1.2"
+  },
+  "baidu browser": {
+   "name": "Baidu Browser",
+   "version": "7.12"
   }
  }
 }
